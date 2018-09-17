@@ -1,6 +1,6 @@
 module AmazonFeedValidator
   class FeedValidator
-    XSDDIR = File.expand_path('./lib/xsd')
+    XSDDIR = File.expand_path('../../xsd', __FILE__)
 
     attr_reader :feed, :options, :errors
 
