@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+    - 'bin/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  EnforcedStyle: rails
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented

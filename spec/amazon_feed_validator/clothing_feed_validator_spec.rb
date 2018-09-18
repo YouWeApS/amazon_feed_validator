@@ -1,4 +1,4 @@
-require "spec_helper"
+require 'spec_helper'
 
 RSpec.describe AmazonFeedValidator::FeedValidator do
   describe '#validate' do

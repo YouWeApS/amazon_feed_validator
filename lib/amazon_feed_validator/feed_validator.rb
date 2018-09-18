@@ -1,16 +1,18 @@
 module AmazonFeedValidator
   class FeedValidator
-    XSDDIR = File.expand_path('../../xsd', __FILE__)
+    XSDDIR = File.expand_path('../xsd', __dir__)
 
     attr_reader :feed, :options, :errors
 
     def initialize(feed, **options)
-      @feed = Nokogiri::XML(feed)
+      @feed = Nokogiri::XML feed
       @options = Hashie::Mash.new options
     end
 
     def validate
-      @errors = Nokogiri::XML::Schema(xsd_file(options.name)).validate(feed).map(&:to_s)
+      @errors = Nokogiri::XML::Schema(xsd_file(options.name))
+        .validate(feed)
+        .map(&:to_s)
       errors.empty?
     end
 
@@ -19,7 +21,8 @@ module AmazonFeedValidator
       def xsd_file(name)
         file = File.read File.expand_path sanitize_name(name), XSDDIR
 
-        # Replace schema location references with ones pointing to local xsd files
+        # Replace schema location references with ones pointing to local xsd
+        # files
         file.gsub! \
           'schemaLocation="',
           "schemaLocation=\"#{XSDDIR}/"

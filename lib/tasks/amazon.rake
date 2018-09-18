@@ -1,3 +1,10 @@
+# Disabling some rubocops. This is a script maintained otherplace, and we don't
+# care about the style of this file.
+
+# rubocop:disable Security/Open
+# rubocop:disable Metrics/MethodLength
+# rubocop:disable Metrics/AbcSize
+
 require 'nokogiri'
 
 namespace :amazon do
@@ -33,3 +40,7 @@ namespace :amazon do
     destination
   end
 end
+
+# rubocop:enable Security/Open
+# rubocop:enable Metrics/MethodLength
+# rubocop:enable Metrics/AbcSize
