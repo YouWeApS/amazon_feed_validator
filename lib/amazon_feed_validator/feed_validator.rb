@@ -12,7 +12,7 @@ module AmazonFeedValidator
     def validate
       @errors = Nokogiri::XML::Schema(xsd_file(options.name))
         .validate(feed)
-        .map(&:to_s)
+        .map(&:to_s) || []
       errors.empty?
     end
 
