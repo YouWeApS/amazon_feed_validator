@@ -23,9 +23,9 @@
                             <xsd:enumeration value="ShoeAccessory"/>
                             <xsd:enumeration value="Handbag"/>
                             <xsd:enumeration value="Eyewear"/>
-							<xsd:enumeration value="Boot"/>
-							<xsd:enumeration value="TechnicalSportShoe"/>
-							<xsd:enumeration value="Sandal"/>
+                            <xsd:enumeration value="Boot"/>
+                            <xsd:enumeration value="TechnicalSportShoe"/>
+                            <xsd:enumeration value="Sandal"/>
                         </xsd:restriction>
                     </xsd:simpleType>
                 </xsd:element>
@@ -99,7 +99,7 @@
                             <xsd:element name="CountryAsLabeled" type="CountryOfOriginType" minOccurs="0"/>
                             <xsd:element name="FurDescription" type="LongString" minOccurs="0"/>
                             <xsd:element name="FabricWash" type="String" minOccurs="0"/>
-							<xsd:element name="FitToSizeDescription" type="StringNotNull" minOccurs="0"/>
+                            <xsd:element name="FitToSizeDescription" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="FrameMaterialType" type="LongString" minOccurs="0"/>
                             <xsd:element name="HarmonizedCode" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="HeelHeight" type="LengthDimension" minOccurs="0"/>
@@ -124,7 +124,7 @@
                             <xsd:element name="MaterialComposition" type="LongString" minOccurs="0"/>
                             <xsd:element name="MaterialType" type="String" minOccurs="0"
                                 maxOccurs="3"/>
-							<xsd:element name="ModelNumber" type="StringNotNull" minOccurs="0"/>
+                            <xsd:element name="ModelNumber" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="ModelName" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="ModelYear" type="FourDigitYear" minOccurs="0"/>
                             <xsd:element name="NumberOfPockets" type="xsd:positiveInteger"
@@ -221,7 +221,7 @@
                             <xsd:element name="MaximumCircumference" type="LengthDimension" minOccurs="0"/>
                             <xsd:element name="Opacity" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="RiseStyle" type="StringNotNull" minOccurs="0"/>
-							<xsd:element name="ShaftType" type="StringNotNull" minOccurs="0"/>
+                            <xsd:element name="ShaftType" type="StringNotNull" minOccurs="0"/>
                             <xsd:element name="ItemPackageQuantity" type="xsd:positiveInteger" minOccurs="0"/>
                            </xsd:sequence>
                     </xsd:complexType>
@@ -239,30 +239,30 @@
    JP : https://sellercentral.amazon.co.jp/forums/t/topic/17987
 ###########################################################################################################################################################
 -->
-				<xsd:element name="ShoeSizeComplianceData" minOccurs="0">
+                <xsd:element name="ShoeSizeComplianceData" minOccurs="0">
                     <xsd:complexType>
                         <xsd:sequence>
-						    <xsd:element name="AgeRangeDescription" type="StringNotNull" minOccurs="0"/>
+                            <xsd:element name="AgeRangeDescription" type="StringNotNull" minOccurs="0"/>
                         <!-- For AgeRangeDescription please select one of the following values US: little_kid, big_kid, toddler, adult, infant ;
                         UK,ES,FR,IT,DE,IN : please select one of the following values adult, kid, baby
-						JP : please select one of the following values å¤§äºº, ã‚­ãƒƒã‚º , ãƒ™ãƒ“ãƒ¼  -->
-							<xsd:element name="FootwearSizeSystem" type="FootwearSizeSystemValues" minOccurs="0"/>
+                        JP : please select one of the following values å¤§äºº, ã‚­ãƒƒã‚º , ãƒ™ãƒ“ãƒ¼  -->
+                            <xsd:element name="FootwearSizeSystem" type="FootwearSizeSystemValues" minOccurs="0"/>
                             <xsd:element name="ShoeSizeAgeGroup" type="ShoeSizeAgeGroupValues" minOccurs="0"/>
-							<!-- The attribute 'ShoeSizeGender' is not applicable for JP, EU4 (DE, FR, IT & ES)-->
+                            <!-- The attribute 'ShoeSizeGender' is not applicable for JP, EU4 (DE, FR, IT & ES)-->
                             <xsd:element name="ShoeSizeGender" type="ShoeSizeGenderValues" minOccurs="0"/>
                             <xsd:element name="ShoeSizeClass" type="ShoeSizeClassValues" minOccurs="0"/>
-							<xsd:element name="ShoeSizeWidth" type="ShoeSizeWidthValues" minOccurs="0"/>
-							<xsd:element name="ShoeSize" type="ShoeSizeValues" minOccurs="0"/>
-							<xsd:element name="ShoeSizeToRange" type="ShoeSizeValues" minOccurs="0"/>
-							<!-- The below attributes are not applicable for JP, EU4 (DE, FR, IT & ES)
-							This is intended to capture details for Unisex(Men and Women) separately!
-							-->
-							<xsd:element name="ShoeSizeGenderUnisex" type="ShoeSizeGenderValues" minOccurs="0"/>
-							<!-- ShoeSizeWidthUnisex is not applicable for UK, IN -->
-							<xsd:element name="ShoeSizeWidthUnisex" type="ShoeSizeWidthValues" minOccurs="0"/>
-							<xsd:element name="ShoeSizeUnisex" type="ShoeSizeValues" minOccurs="0"/>
-							<xsd:element name="ShoeSizeToRangeUnisex" type="ShoeSizeValues" minOccurs="0"/>
-						</xsd:sequence>
+                            <xsd:element name="ShoeSizeWidth" type="ShoeSizeWidthValues" minOccurs="0"/>
+                            <xsd:element name="ShoeSize" type="ShoeSizeValues" minOccurs="0"/>
+                            <xsd:element name="ShoeSizeToRange" type="ShoeSizeValues" minOccurs="0"/>
+                            <!-- The below attributes are not applicable for JP, EU4 (DE, FR, IT & ES)
+                            This is intended to capture details for Unisex(Men and Women) separately!
+                            -->
+                            <xsd:element name="ShoeSizeGenderUnisex" type="ShoeSizeGenderValues" minOccurs="0"/>
+                            <!-- ShoeSizeWidthUnisex is not applicable for UK, IN -->
+                            <xsd:element name="ShoeSizeWidthUnisex" type="ShoeSizeWidthValues" minOccurs="0"/>
+                            <xsd:element name="ShoeSizeUnisex" type="ShoeSizeValues" minOccurs="0"/>
+                            <xsd:element name="ShoeSizeToRangeUnisex" type="ShoeSizeValues" minOccurs="0"/>
+                        </xsd:sequence>
                     </xsd:complexType>
                 </xsd:element>
 
@@ -291,51 +291,51 @@
     <xsd:simpleType name="FootwearSizeSystemValues">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="us_footwear_size_system"/>
-			<xsd:enumeration value="eu_footwear_size_system"/>
-			<xsd:enumeration value="uk_footwear_size_system"/>
-			<xsd:enumeration value="jp_footwear_size_system"/>
+            <xsd:enumeration value="eu_footwear_size_system"/>
+            <xsd:enumeration value="uk_footwear_size_system"/>
+            <xsd:enumeration value="jp_footwear_size_system"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:simpleType name="ShoeSizeAgeGroupValues">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="adult"/>
-			<xsd:enumeration value="big_kid"/>
-			<xsd:enumeration value="little_kid"/>
-			<xsd:enumeration value="toddler"/>
-			<xsd:enumeration value="infant"/>
+            <xsd:enumeration value="big_kid"/>
+            <xsd:enumeration value="little_kid"/>
+            <xsd:enumeration value="toddler"/>
+            <xsd:enumeration value="infant"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:simpleType name="ShoeSizeGenderValues">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="men"/>
-			<xsd:enumeration value="women"/>
+            <xsd:enumeration value="women"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:simpleType name="ShoeSizeClassValues">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="numeric"/>
-			<xsd:enumeration value="numeric_range"/>
-			<xsd:enumeration value="alpha"/>
-			<xsd:enumeration value="alpha_range"/>
-			<xsd:enumeration value="age"/>
-			<xsd:enumeration value="age_range"/>
-			<xsd:enumeration value="measurement"/>
-			<xsd:enumeration value="measurement_range"/>
+            <xsd:enumeration value="numeric_range"/>
+            <xsd:enumeration value="alpha"/>
+            <xsd:enumeration value="alpha_range"/>
+            <xsd:enumeration value="age"/>
+            <xsd:enumeration value="age_range"/>
+            <xsd:enumeration value="measurement"/>
+            <xsd:enumeration value="measurement_range"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:simpleType name="ShoeSizeWidthValues">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="xxx_narrow"/>
-			<xsd:enumeration value="xx_narrow"/>
-			<xsd:enumeration value="x_narrow"/>
-			<xsd:enumeration value="narrow"/>
-			<xsd:enumeration value="medium"/>
-			<xsd:enumeration value="wide"/>
-			<xsd:enumeration value="x_wide"/>
-			<xsd:enumeration value="xx_wide"/>
-			<xsd:enumeration value="xxx_wide"/>
-			<!-- The below width enumerations are applicable for JP only -->
-			<xsd:enumeration value="2_point_5_e"/>
+            <xsd:enumeration value="xx_narrow"/>
+            <xsd:enumeration value="x_narrow"/>
+            <xsd:enumeration value="narrow"/>
+            <xsd:enumeration value="medium"/>
+            <xsd:enumeration value="wide"/>
+            <xsd:enumeration value="x_wide"/>
+            <xsd:enumeration value="xx_wide"/>
+            <xsd:enumeration value="xxx_wide"/>
+            <!-- The below width enumerations are applicable for JP only -->
+            <xsd:enumeration value="2_point_5_e"/>
             <xsd:enumeration value="2_a"/>
             <xsd:enumeration value="3_a"/>
             <xsd:enumeration value="4_a"/>
@@ -422,17 +422,17 @@
             <xsd:enumeration value="xxx_s"/>
             <xsd:enumeration value="xx_s"/>
             <xsd:enumeration value="x_s"/>
-			<!-- Enumerations 'ss' , 'll' are applicable for JP only -->
-			<xsd:enumeration value="ss"/>
+            <!-- Enumerations 'ss' , 'll' are applicable for JP only -->
+            <xsd:enumeration value="ss"/>
             <xsd:enumeration value="small"/>
             <xsd:enumeration value="medium"/>
             <xsd:enumeration value="large"/>
-			<xsd:enumeration value="ll"/>
+            <xsd:enumeration value="ll"/>
             <xsd:enumeration value="x_l"/>
             <xsd:enumeration value="xx_l"/>
             <xsd:enumeration value="xxx_l"/>
-			<!-- Below enumerations are applicable for ES,FR,IT& DE only -->
-			<xsd:enumeration value="fraction_14_and_1_ninth"/>
+            <!-- Below enumerations are applicable for ES,FR,IT& DE only -->
+            <xsd:enumeration value="fraction_14_and_1_ninth"/>
             <xsd:enumeration value="fraction_14_and_1_third"/>
             <xsd:enumeration value="fraction_14_and_2_thirds"/>
             <xsd:enumeration value="fraction_15_and_1_ninth"/>
@@ -650,8 +650,8 @@
             <xsd:enumeration value="numeric_59_point_5"/>
             <xsd:enumeration value="fraction_59_and_2_thirds"/>
             <xsd:enumeration value="numeric_60"/>
-			<!-- Below enumerations are applicable for JP measurement/ measurement_range class only -->
-			<xsd:enumeration value="measurement_10_point_0_centimeters"/>
+            <!-- Below enumerations are applicable for JP measurement/ measurement_range class only -->
+            <xsd:enumeration value="measurement_10_point_0_centimeters"/>
             <xsd:enumeration value="measurement_10_point_5_centimeters"/>
             <xsd:enumeration value="measurement_11_point_0_centimeters"/>
             <xsd:enumeration value="measurement_11_point_5_centimeters"/>
