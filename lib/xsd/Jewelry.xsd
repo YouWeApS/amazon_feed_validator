@@ -47,6 +47,7 @@ Please read the corresponding documentation that contains the recommended values
 				<xsd:element name="WarrantyType" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="ModelNumber" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="Codabar" type="StringNotNull" minOccurs="0"/>
+				<xsd:element name="MetalType" type="StringNotNull" minOccurs="0"/>
 
 			</xsd:sequence>
 		</xsd:complexType>
@@ -136,7 +137,7 @@ Please read the corresponding documentation that contains the recommended values
 						<xsd:restriction base="StringNotNull">
 							<xsd:enumeration value="male"/>
 							<xsd:enumeration value="female"/>
-							<xsd:enumeration value="unisex"/>	
+							<xsd:enumeration value="unisex"/>
 						</xsd:restriction>
 					</xsd:simpleType>
 				</xsd:element>
@@ -199,6 +200,7 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -302,6 +304,7 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -729,6 +732,7 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
