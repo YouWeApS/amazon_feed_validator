@@ -5,9 +5,9 @@
     $Date: 2012/04/02 $
 
     AMAZON.COM CONFIDENTIAL.  This document and the information contained in it are
-    confidential and proprietary information of Amazon.com and may not be reproduced, 
-    distributed or used, in whole or in part, for any purpose other than as necessary 
-    to list products for sale on the www.amazon.com web site pursuant to an agreement 
+    confidential and proprietary information of Amazon.com and may not be reproduced,
+    distributed or used, in whole or in part, for any purpose other than as necessary
+    to list products for sale on the www.amazon.com web site pursuant to an agreement
     with Amazon.com.
     -->
 	<xsd:include schemaLocation="amzn-base.xsd"/>
@@ -54,7 +54,7 @@
 										<xsd:enumeration value="Cupsize"/>
 										<xsd:enumeration value="Cupsize-Color"/>
 										<xsd:enumeration value="Cupsize-Color-Size"/>
-										<xsd:enumeration value="Cupsize-Size"/>										
+										<xsd:enumeration value="Cupsize-Size"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -100,11 +100,11 @@
 										<xsd:enumeration value="Chanchanko"/>
 										<xsd:enumeration value="Jinbei"/>
 										<xsd:enumeration value="Yukata"/>
-										<xsd:enumeration value="EthnicWear"/>										
-										<xsd:enumeration value="Costume"/>										
-										<xsd:enumeration value="AdultCostume"/>										
-										<xsd:enumeration value="BabyCostume"/>										
-										<xsd:enumeration value="ChildrensCostume"/>										
+										<xsd:enumeration value="EthnicWear"/>
+										<xsd:enumeration value="Costume"/>
+										<xsd:enumeration value="AdultCostume"/>
+										<xsd:enumeration value="BabyCostume"/>
+										<xsd:enumeration value="ChildrensCostume"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -222,7 +222,7 @@
 							<xsd:element name="FabricType" type="StringNotNull" minOccurs="0"/>
 							<xsd:element name="FabricWash" type="StringNotNull" minOccurs="0"/>
 							<xsd:element name="FitType" type="StringNotNull" minOccurs="0"/>
-							<xsd:element name="FitToSizeDescription" type="StringNotNull" minOccurs="0"/>							
+							<xsd:element name="FitToSizeDescription" type="StringNotNull" minOccurs="0"/>
 							<xsd:element name="FrontPleatType" type="StringNotNull" minOccurs="0"/>
 							<xsd:element name="IncludedComponents" type="StringNotNull"
 								minOccurs="0"/>
