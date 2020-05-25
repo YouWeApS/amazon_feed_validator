@@ -95,6 +95,7 @@
 					minOccurs="0"/>
 				<xsd:element name="Warnings" type="LongStringNotNull" minOccurs="0"/>
 				<xsd:element name="DeliveryScheduleGroupId" type="LongStringNotNull" minOccurs="0"/>
+				<xsd:element name="WarrantyDescription" type="SuperLongStringNotNull" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -235,8 +236,8 @@
 				<xsd:element ref="ModelNumber" minOccurs="0"/>
 				<xsd:element name="MonitorTunerTechnology" type="StringNotNull" minOccurs="0"/>
 				<xsd:element ref="MonitorBrightness" minOccurs="0"/>
-				<xsd:element ref="MonitorConnectors" minOccurs="0" maxOccurs="5"/>
-				<xsd:element ref="ResponseTime" minOccurs="0"/>
+                                <xsd:element ref="MonitorConnectors" minOccurs="0" maxOccurs="5"/>
+                                <xsd:element name="ResponseTime" type="TimeDimension" minOccurs="0"/>
 				<xsd:element ref="ScreenResolution" minOccurs="0"/>
 				<xsd:element ref="ScreenSize" minOccurs="0"/>
 				<xsd:element ref="TunerTechnology" minOccurs="0"/>
