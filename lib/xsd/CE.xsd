@@ -3267,7 +3267,6 @@ with Amazon.com.
 				<xsd:element name="RAMSize" type="MemorySizeDimension" minOccurs="0"/>
 				<xsd:element name="ProcessorBrand" type="FortyStringNotNull" minOccurs="0"/>
 				<xsd:element name="ProcessorSpeed" type="FrequencyDimension" minOccurs="0"/>
-				<xsd:element name="FrontWebcamResolution" type="ResolutionFiveDigitDimension"/>
 				<xsd:element name="StandbyTime" type="TimeDimension" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
