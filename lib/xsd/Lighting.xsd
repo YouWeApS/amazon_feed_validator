@@ -144,6 +144,8 @@
 				<xsd:element name="Efficiency" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="ExternalTestingCertification" type="StringNotNull" minOccurs="0" maxOccurs="2"/>
 				<xsd:element name="PowerPlugType" type="PowerPlugType" minOccurs="0"/>
+				<xsd:element name="Model" type="StringNotNull" minOccurs="0"/>
+
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
