@@ -69,7 +69,6 @@
 				<xsd:element name="Size" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="SizeMap" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="Warnings" type="LongStringNotNull" minOccurs="0"/>
-				<xsd:element name="WarrantyDescription" type="SuperLongStringNotNull" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>

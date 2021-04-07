@@ -183,12 +183,6 @@
 				<xsd:element name="FcShelfLife" type="xsd:positiveInteger" minOccurs="0"/>
 				<xsd:element name="FcShelfLifePadTime" type="xsd:positiveInteger" minOccurs="0"/>
 				<xsd:element name="ModelNumber" type="StringNotNull" minOccurs="0"/>	
-				<!-- Legal attributes for CA-BABY_PRODUCTS PTD-->
-				<xsd:element name="LegalComplianceCertificationMetadata" type="xsd:string" minOccurs="0" maxOccurs="1"/>
-				<!-- LEGAL_COMPLIANCE_CERTIFICATION_VALUES FOR CA-BEAUTY( Drug Identification Number, Homeopathic Medicine Number, Natural Product Number, Not Applicable)-->
-                <xsd:element name="LegalComplianceCertificationValue" type="xsd:string" minOccurs="0" maxOccurs="1"/>
-                <xsd:element name="LegalComplianceCertificationDateOfIssue" type="xsd:string" minOccurs="0" maxOccurs="1"/>
-                <xsd:element name="LegalComplianceCertificationExpirationDate" type="xsd:string" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -801,13 +795,6 @@
 				<xsd:element name="ProductExpirationType" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="FcShelfLife" type="xsd:positiveInteger" minOccurs="0"/>
 				<xsd:element name="FcShelfLifePadTime" type="xsd:positiveInteger" minOccurs="0"/>
-				<xsd:element name="FabricType" type="StringNotNull" minOccurs="0" maxOccurs="10"/>
-				<xsd:element name="ImportDesignation" type="String" minOccurs="0" />
-				<xsd:element name="PackageSizeName" type="String" minOccurs="0"/>
-				<xsd:element name="EachUnitCount" type="PositiveInteger" minOccurs="0"/>
-				<xsd:element name="TotalEaches" type="xsd:positiveInteger" minOccurs="0"/>
-				<xsd:element name="ItemDisplayDepth" type="LengthDimension" minOccurs="0"/>
-				<xsd:element name="Model" type="FortyStringNotNull" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>

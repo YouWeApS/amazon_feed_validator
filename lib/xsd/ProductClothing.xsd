@@ -5,9 +5,9 @@
     $Date: 2012/04/02 $
 
     AMAZON.COM CONFIDENTIAL.  This document and the information contained in it are
-    confidential and proprietary information of Amazon.com and may not be reproduced, 
-    distributed or used, in whole or in part, for any purpose other than as necessary 
-    to list products for sale on the www.amazon.com web site pursuant to an agreement 
+    confidential and proprietary information of Amazon.com and may not be reproduced,
+    distributed or used, in whole or in part, for any purpose other than as necessary
+    to list products for sale on the www.amazon.com web site pursuant to an agreement
     with Amazon.com.
     -->
    <xsd:include schemaLocation="amzn-base.xsd" />
@@ -120,7 +120,7 @@
 							         <xsd:enumeration value="TrackSuit" />
 							         <xsd:enumeration value="UndergarmentSlip" />
 							         <xsd:enumeration value="Underpants" />
-							         <xsd:enumeration value="Vest" />							  
+							         <xsd:enumeration value="Vest" />
                            </xsd:restriction>
                         </xsd:simpleType>
                      </xsd:element>
@@ -328,7 +328,7 @@
 
 <!--
 ###########################################################################################################################################################
-#  Apparel size standardization Attributes to be filled-in for the respective ClothingType are listed below: 
+#  Apparel size standardization Attributes to be filled-in for the respective ClothingType are listed below:
 1. DRESS, SWEATER, KURTA, COAT, TUNIC, SOCKS, UNDERPANTS, SWEATSHIRT, PAJAMAS, SUIT, ROBE, TIGHTS, BLAZER, TRACK_SUIT, VEST, SALWAR_SUIT_SET:
    TargetGender
    AgeRangeDescription
@@ -407,134 +407,134 @@
    AU: https://sellercentral.amazon.com.au/gp/help/GM6YJ5XPA58U99XM
    IN: https://sellercentral.amazon.in/gp/help/GM6YJ5XPA58U99XM
    SA: https://sellercentral.amazon.sa/gp/help/GM6YJ5XPA58U99XM
-   UAE: https://sellercentral.amazon.ae/gp/help/GM6YJ5XPA58U99XM   
+   UAE: https://sellercentral.amazon.ae/gp/help/GM6YJ5XPA58U99XM
 ###########################################################################################################################################################
 -->
 
 
-                <!--For AgeRangeDescription please select from the marketplace specific values below: 
-                  
+                <!--For AgeRangeDescription please select from the marketplace specific values below:
+
                   US:
-                  
+
                   Adult
                   Big Kid
                   Little Kid
                   Toddler
                   Infant
-                  
-                  SA 
-                  
+
+                  SA
+
                   Adult
                   Infant
                   Kid
                   Toddler
-                  
+
                   UK:
-                  
+
                   Adult
                   Infant
                   Kid
                   Toddler
-                  
+
                   SE:
-                  
-                  Spädbarn
+
+                  SpÃ¤dbarn
                   Barn
                   Vuxen
-                  Småbarn
-                  
+                  SmÃ¥barn
+
                   AE:
-                  
+
                   Adult
                   Infant
                   Kid
                   Toddler
-                  
+
                   DE:
-                  
+
                   Kind
                   Kleinkind
                   Erwachsener
                   Baby
-                  
+
                   CA:
-                  
+
                   Adult
                   Big Kid
                   Little Kid
                   Toddler
                   Infant
-                  
+
                   AU:
-                  
+
                   Adult
                   Big Kid
                   Little Kid
                   Toddler
                   Infant
-                  
+
                   BR:
-                  
+
                   Adulto
-                  Criança
-                  Bebé
-                  
+                  CrianÃ§a
+                  BebÃ©
+
                   JP:
-                  
-                  大人
-                  キッズ
-                  ベビー
-                  
-                  
+
+                  å¤§äºº
+                  ã‚­ãƒƒã‚º
+                  ãƒ™ãƒ“ãƒ¼
+
+
                   ES:
-                  
+
                   Adulto
                   Infante
-                  Niños pequeños
-                  Niño
-                  
+                  NiÃ±os pequeÃ±os
+                  NiÃ±o
+
                   PL:
-                  
-                  Dla dorosłych
+
+                  Dla dorosÅ‚ych
                   Dziecko
-                  Dla noworodków
+                  Dla noworodkÃ³w
                   Maluch
-                  
+
                   FR:
-                  
+
                   Adulte
                   Nourrisson
                   Enfant
                   Tout-petit
-                  
+
                   IN:
-                  
+
                   Adult
                   Kid
                   Baby
-                  
+
                   MX:
-                  
-                  Niño Chico
+
+                  NiÃ±o Chico
                   Adulto
                   Adolescente
-                  Niño (2-5 años)
-                  Bebé
-                  
+                  NiÃ±o (2-5 aÃ±os)
+                  BebÃ©
+
                   IT:
-                  
+
                   Ragazzo
                   Neonato
                   Adulto
                   Bambino
-                  
+
                   NL:
-                  
+
                   Kind
                   Kleuter
                   Peuter
                   Volwassene
-                  
+
                 -->
 
             <xsd:element name="AgeRangeDescription" minOccurs="0" type="StringNotNull" />
@@ -544,7 +544,7 @@
                                 other marketplaces except JP: big, husky, plus, regular, petite
                                 JP: slim, j, jy, y, ya, a, ab, b, bb, e, be
                                 BR: regular,plus,petite
-                --> 
+                -->
 
 	            <xsd:element name="ApparelBodyType" minOccurs="0" >
 	               <xsd:simpleType>
@@ -574,7 +574,7 @@
 	                     <!--Valid Values for each marketplace are given below-
                                 US,CA,MX,AU,UK,DE,NL,SE,PL,FR,ES,AE,SA,IT,BR: petite,short,regular,tall,extra_tall
                                 JP: long, p, pp, w, t, y, 2, 3, 4, 5, 6, 7, 8, 9, r
-                            -->  
+                            -->
                             <xsd:enumeration value="pp" />
 							<xsd:enumeration value="long" />
 							<xsd:enumeration value="extra_tall" />
@@ -946,7 +946,7 @@
 							<xsd:enumeration value="alpha_jaspo" />
 							<xsd:enumeration value="numeric_go" />
 							<xsd:enumeration value="numeric_height" />
-                             <!-- The below value(age) is not applicable for IN -->  
+                             <!-- The below value(age) is not applicable for IN -->
 							<xsd:enumeration value="alpha" />
 							<xsd:enumeration value="age" />
 						</xsd:restriction>
@@ -959,17 +959,17 @@
                             <xsd:enumeration value="as3"/>
                             <!-- The below value is only applicable for BR -->
                             <xsd:enumeration value="as2"/>
-                            <!-- The below value is only applicable for IN -->  
+                            <!-- The below value is only applicable for IN -->
                             <xsd:enumeration value="as5"/>
                             <!-- The below value is only applicable for FR,ES,AE,SA -->
                             <xsd:enumeration value="as4"/>
-                            <!-- The below value is only applicable for JP -->  
+                            <!-- The below value is only applicable for JP -->
                             <xsd:enumeration value="as7"/>
                             <!-- The below value is only applicable for IT -->
                             <xsd:enumeration value="as6"/>
-                            <!-- The below value is only applicable for UK -->  
+                            <!-- The below value is only applicable for UK -->
                             <xsd:enumeration value="as8"/>
-                            <!-- The below value is only applicable for US,CA,MX and AU -->  
+                            <!-- The below value is only applicable for US,CA,MX and AU -->
                             <xsd:enumeration value="as1"/>
 						</xsd:restriction>
 					</xsd:simpleType>
@@ -1313,7 +1313,7 @@
 	                  </xsd:restriction>
 	               </xsd:simpleType>
 	            </xsd:element>
-				
+
 				<!--ShirtBodyType Valid Values for each marketplace are given below-
                                 US,CA,MX,AU: husky, regular, plus, big
 								UK,DE,NL,FR,ES,UAE,KSA,IT: regular, plus
@@ -1321,1104 +1321,1104 @@
                                 BR: regular,plus,slim
 								IN: Not applicable
                 	-->
-				
-				<xsd:element name="ShirtBodyType" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="bb" />	
-                     <xsd:enumeration value="big" />	
-                     <xsd:enumeration value="ab" />	
-                     <xsd:enumeration value="a" />	
-                     <xsd:enumeration value="b" />	
-                     <xsd:enumeration value="be" />	
-                     <xsd:enumeration value="husky" />	
-                     <xsd:enumeration value="e" />	
-                     <xsd:enumeration value="slim" />	
-                     <xsd:enumeration value="ya" />	
-                     <xsd:enumeration value="j" />	
-                     <xsd:enumeration value="plus" />	
-                     <xsd:enumeration value="jy" />	
-                     <xsd:enumeration value="y" />	
-                     <xsd:enumeration value="regular" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+
+				<xsd:element name="ShirtBodyType" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="bb" />
+                     <xsd:enumeration value="big" />
+                     <xsd:enumeration value="ab" />
+                     <xsd:enumeration value="a" />
+                     <xsd:enumeration value="b" />
+                     <xsd:enumeration value="be" />
+                     <xsd:enumeration value="husky" />
+                     <xsd:enumeration value="e" />
+                     <xsd:enumeration value="slim" />
+                     <xsd:enumeration value="ya" />
+                     <xsd:enumeration value="j" />
+                     <xsd:enumeration value="plus" />
+                     <xsd:enumeration value="jy" />
+                     <xsd:enumeration value="y" />
+                     <xsd:enumeration value="regular" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			<!--ShirtHeightType Valid Values for each marketplace are given below-
                                 US,CA,MX,AU, UK,DE,NL,FR,ES,UAE,KSA,IT: petitte, short, regular, tall, extra_tall
                                 JP: long, short, pp, p, r, t, w, y, 2, 3, 4, 5, 6, 7, 8, 9
                                 BR,IN: Not applicable
-                	--> 
-			
-            <xsd:element name="ShirtHeightType" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="pp" />	
-                     <xsd:enumeration value="long" />	
-                     <xsd:enumeration value="extra_tall" />	
-                     <xsd:enumeration value="p" />	
-                     <xsd:enumeration value="2" />	
-                     <xsd:enumeration value="r" />	
-                     <xsd:enumeration value="3" />	
-                     <xsd:enumeration value="4" />	
-                     <xsd:enumeration value="t" />	
-                     <xsd:enumeration value="5" />	
-                     <xsd:enumeration value="6" />	
-                     <xsd:enumeration value="7" />	
-                     <xsd:enumeration value="w" />	
-                     <xsd:enumeration value="8" />	
-                     <xsd:enumeration value="short" />	
-                     <xsd:enumeration value="9" />	
-                     <xsd:enumeration value="y" />	
-                     <xsd:enumeration value="tall" />	
-                     <xsd:enumeration value="regular" />	
-                     <xsd:enumeration value="petite" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+                	-->
+
+            <xsd:element name="ShirtHeightType" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="pp" />
+                     <xsd:enumeration value="long" />
+                     <xsd:enumeration value="extra_tall" />
+                     <xsd:enumeration value="p" />
+                     <xsd:enumeration value="2" />
+                     <xsd:enumeration value="r" />
+                     <xsd:enumeration value="3" />
+                     <xsd:enumeration value="4" />
+                     <xsd:enumeration value="t" />
+                     <xsd:enumeration value="5" />
+                     <xsd:enumeration value="6" />
+                     <xsd:enumeration value="7" />
+                     <xsd:enumeration value="w" />
+                     <xsd:enumeration value="8" />
+                     <xsd:enumeration value="short" />
+                     <xsd:enumeration value="9" />
+                     <xsd:enumeration value="y" />
+                     <xsd:enumeration value="tall" />
+                     <xsd:enumeration value="regular" />
+                     <xsd:enumeration value="petite" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			 <!--Fill only when ShirtSizeClass is selected as neck or neck_sleeve
                 -->
-			
-            <xsd:element name="ShirtNeckSize" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="44" />	
-                     <xsd:enumeration value="16_point_5" />	
-                     <xsd:enumeration value="45" />	
-                     <xsd:enumeration value="46" />	
-                     <xsd:enumeration value="47" />	
-                     <xsd:enumeration value="48" />	
-                     <xsd:enumeration value="49" />	
-                     <xsd:enumeration value="14_point_5" />	
-                     <xsd:enumeration value="50" />	
-                     <xsd:enumeration value="18_point_5" />	
-                     <xsd:enumeration value="51" />	
-                     <xsd:enumeration value="52" />	
-                     <xsd:enumeration value="53" />	
-                     <xsd:enumeration value="20_point_5" />	
-                     <xsd:enumeration value="54" />	
-                     <xsd:enumeration value="55" />	
-                     <xsd:enumeration value="56" />	
-                     <xsd:enumeration value="12" />	
-                     <xsd:enumeration value="13" />	
-                     <xsd:enumeration value="57" />	
-                     <xsd:enumeration value="14" />	
-                     <xsd:enumeration value="22_point_5" />	
-                     <xsd:enumeration value="58" />	
-                     <xsd:enumeration value="15" />	
-                     <xsd:enumeration value="59" />	
-                     <xsd:enumeration value="16" />	
-                     <xsd:enumeration value="17" />	
-                     <xsd:enumeration value="18" />	
-                     <xsd:enumeration value="19" />	
-                     <xsd:enumeration value="12_point_5" />	
-                     <xsd:enumeration value="60" />	
-                     <xsd:enumeration value="20" />	
-                     <xsd:enumeration value="21" />	
-                     <xsd:enumeration value="22" />	
-                     <xsd:enumeration value="23" />	
-                     <xsd:enumeration value="24" />	
-                     <xsd:enumeration value="15_point_5" />	
-                     <xsd:enumeration value="19_point_5" />	
-                     <xsd:enumeration value="17_point_5" />	
-                     <xsd:enumeration value="30" />	
-                     <xsd:enumeration value="31" />	
-                     <xsd:enumeration value="32" />	
-                     <xsd:enumeration value="33" />	
-                     <xsd:enumeration value="34" />	
-                     <xsd:enumeration value="23_point_5" />	
-                     <xsd:enumeration value="35" />	
-                     <xsd:enumeration value="36" />	
-                     <xsd:enumeration value="37" />	
-                     <xsd:enumeration value="38" />	
-                     <xsd:enumeration value="39" />	
-                     <xsd:enumeration value="21_point_5" />	
-                     <xsd:enumeration value="13_point_5" />	
-                     <xsd:enumeration value="40" />	
-                     <xsd:enumeration value="41" />	
-                     <xsd:enumeration value="42" />	
-                     <xsd:enumeration value="43" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+
+            <xsd:element name="ShirtNeckSize" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="44" />
+                     <xsd:enumeration value="16_point_5" />
+                     <xsd:enumeration value="45" />
+                     <xsd:enumeration value="46" />
+                     <xsd:enumeration value="47" />
+                     <xsd:enumeration value="48" />
+                     <xsd:enumeration value="49" />
+                     <xsd:enumeration value="14_point_5" />
+                     <xsd:enumeration value="50" />
+                     <xsd:enumeration value="18_point_5" />
+                     <xsd:enumeration value="51" />
+                     <xsd:enumeration value="52" />
+                     <xsd:enumeration value="53" />
+                     <xsd:enumeration value="20_point_5" />
+                     <xsd:enumeration value="54" />
+                     <xsd:enumeration value="55" />
+                     <xsd:enumeration value="56" />
+                     <xsd:enumeration value="12" />
+                     <xsd:enumeration value="13" />
+                     <xsd:enumeration value="57" />
+                     <xsd:enumeration value="14" />
+                     <xsd:enumeration value="22_point_5" />
+                     <xsd:enumeration value="58" />
+                     <xsd:enumeration value="15" />
+                     <xsd:enumeration value="59" />
+                     <xsd:enumeration value="16" />
+                     <xsd:enumeration value="17" />
+                     <xsd:enumeration value="18" />
+                     <xsd:enumeration value="19" />
+                     <xsd:enumeration value="12_point_5" />
+                     <xsd:enumeration value="60" />
+                     <xsd:enumeration value="20" />
+                     <xsd:enumeration value="21" />
+                     <xsd:enumeration value="22" />
+                     <xsd:enumeration value="23" />
+                     <xsd:enumeration value="24" />
+                     <xsd:enumeration value="15_point_5" />
+                     <xsd:enumeration value="19_point_5" />
+                     <xsd:enumeration value="17_point_5" />
+                     <xsd:enumeration value="30" />
+                     <xsd:enumeration value="31" />
+                     <xsd:enumeration value="32" />
+                     <xsd:enumeration value="33" />
+                     <xsd:enumeration value="34" />
+                     <xsd:enumeration value="23_point_5" />
+                     <xsd:enumeration value="35" />
+                     <xsd:enumeration value="36" />
+                     <xsd:enumeration value="37" />
+                     <xsd:enumeration value="38" />
+                     <xsd:enumeration value="39" />
+                     <xsd:enumeration value="21_point_5" />
+                     <xsd:enumeration value="13_point_5" />
+                     <xsd:enumeration value="40" />
+                     <xsd:enumeration value="41" />
+                     <xsd:enumeration value="42" />
+                     <xsd:enumeration value="43" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			<!--Fill only when ShirtSizeClass is selected as neck or neck_sleeve
                 -->
-			
-            <xsd:element name="ShirtNeckSizeTo" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="44" />	
-                     <xsd:enumeration value="16_point_5" />	
-                     <xsd:enumeration value="45" />	
-                     <xsd:enumeration value="46" />	
-                     <xsd:enumeration value="47" />	
-                     <xsd:enumeration value="48" />	
-                     <xsd:enumeration value="49" />	
-                     <xsd:enumeration value="14_point_5" />	
-                     <xsd:enumeration value="50" />	
-                     <xsd:enumeration value="18_point_5" />	
-                     <xsd:enumeration value="51" />	
-                     <xsd:enumeration value="52" />	
-                     <xsd:enumeration value="53" />	
-                     <xsd:enumeration value="20_point_5" />	
-                     <xsd:enumeration value="54" />	
-                     <xsd:enumeration value="55" />	
-                     <xsd:enumeration value="56" />	
-                     <xsd:enumeration value="12" />	
-                     <xsd:enumeration value="13" />	
-                     <xsd:enumeration value="22_point_5" />	
-                     <xsd:enumeration value="14" />	
-                     <xsd:enumeration value="15" />	
-                     <xsd:enumeration value="16" />	
-                     <xsd:enumeration value="17" />	
-                     <xsd:enumeration value="18" />	
-                     <xsd:enumeration value="19" />	
-                     <xsd:enumeration value="12_point_5" />	
-                     <xsd:enumeration value="20" />	
-                     <xsd:enumeration value="21" />	
-                     <xsd:enumeration value="22" />	
-                     <xsd:enumeration value="23" />	
-                     <xsd:enumeration value="24" />	
-                     <xsd:enumeration value="15_point_5" />	
-                     <xsd:enumeration value="19_point_5" />	
-                     <xsd:enumeration value="17_point_5" />	
-                     <xsd:enumeration value="33" />	
-                     <xsd:enumeration value="34" />	
-                     <xsd:enumeration value="23_point_5" />	
-                     <xsd:enumeration value="35" />	
-                     <xsd:enumeration value="36" />	
-                     <xsd:enumeration value="37" />	
-                     <xsd:enumeration value="38" />	
-                     <xsd:enumeration value="39" />	
-                     <xsd:enumeration value="21_point_5" />	
-                     <xsd:enumeration value="13_point_5" />	
-                     <xsd:enumeration value="40" />	
-                     <xsd:enumeration value="41" />	
-                     <xsd:enumeration value="42" />	
-                     <xsd:enumeration value="43" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-            <xsd:element name="ShirtSize" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="numeric_134" />	
-                     <xsd:enumeration value="11_months" />	
-                     <xsd:enumeration value="numeric_50" />	
-                     <xsd:enumeration value="egg" />	
-                     <xsd:enumeration value="13_months" />	
-                     <xsd:enumeration value="numeric_52" />	
-                     <xsd:enumeration value="numeric_51" />	
-                     <xsd:enumeration value="jaspo_3x_s" />	
-                     <xsd:enumeration value="5x_l" />	
-                     <xsd:enumeration value="jaspo_3x_o" />	
-                     <xsd:enumeration value="5x_s" />	
-                     <xsd:enumeration value="17_months" />	
-                     <xsd:enumeration value="19_months" />	
-                     <xsd:enumeration value="numeric_54" />	
-                     <xsd:enumeration value="3_years" />	
-                     <xsd:enumeration value="numeric_53" />	
-                     <xsd:enumeration value="15_months" />	
-                     <xsd:enumeration value="numeric_56" />	
-                     <xsd:enumeration value="numeric_140" />	
-                     <xsd:enumeration value="numeric_55" />	
-                     <xsd:enumeration value="numeric_58" />	
-                     <xsd:enumeration value="numeric_57" />	
-                     <xsd:enumeration value="numeric_59" />	
-                     <xsd:enumeration value="numeric_124" />	
-                     <xsd:enumeration value="numeric_123" />	
-                     <xsd:enumeration value="numeric_126" />	
-                     <xsd:enumeration value="numeric_125" />	
-                     <xsd:enumeration value="jaspo_8x_o" />	
-                     <xsd:enumeration value="numeric_128" />	
-                     <xsd:enumeration value="numeric_61" />	
-                     <xsd:enumeration value="jaspo_8x_ot" />	
-                     <xsd:enumeration value="numeric_60" />	
-                     <xsd:enumeration value="numeric_127" />	
-                     <xsd:enumeration value="8_l" />	
-                     <xsd:enumeration value="numeric_63" />	
-                     <xsd:enumeration value="numeric_62" />	
-                     <xsd:enumeration value="numeric_129" />	
-                     <xsd:enumeration value="jaspo_x_s" />	
-                     <xsd:enumeration value="numeric_65" />	
-                     <xsd:enumeration value="jaspo_x_o" />	
-                     <xsd:enumeration value="numeric_64" />	
-                     <xsd:enumeration value="10x" />	
-                     <xsd:enumeration value="numeric_67" />	
-                     <xsd:enumeration value="numeric_66" />	
-                     <xsd:enumeration value="numeric_69" />	
-                     <xsd:enumeration value="numeric_68" />	
-                     <xsd:enumeration value="numeric_130" />	
-                     <xsd:enumeration value="12_years" />	
-                     <xsd:enumeration value="numeric_70" />	
-                     <xsd:enumeration value="20_months" />	
-                     <xsd:enumeration value="numeric_158" />	
-                     <xsd:enumeration value="numeric_72" />	
-                     <xsd:enumeration value="numeric_71" />	
-                     <xsd:enumeration value="numeric_74" />	
-                     <xsd:enumeration value="numeric_73" />	
-                     <xsd:enumeration value="jaspo_5x_ot" />	
-                     <xsd:enumeration value="0x" />	
-                     <xsd:enumeration value="24_months" />	
-                     <xsd:enumeration value="teeny" />	
-                     <xsd:enumeration value="numeric_76" />	
-                     <xsd:enumeration value="numeric_160" />	
-                     <xsd:enumeration value="numeric_75" />	
-                     <xsd:enumeration value="9_months" />	
-                     <xsd:enumeration value="numeric_78" />	
-                     <xsd:enumeration value="numeric_77" />	
-                     <xsd:enumeration value="10_l" />	
-                     <xsd:enumeration value="numeric_164" />	
-                     <xsd:enumeration value="numeric_79" />	
-                     <xsd:enumeration value="8_years" />	
-                     <xsd:enumeration value="numeric_146" />	
-                     <xsd:enumeration value="ss" />	
-                     <xsd:enumeration value="numeric_81" />	
-                     <xsd:enumeration value="numeric_80" />	
-                     <xsd:enumeration value="5_months" />	
-                     <xsd:enumeration value="x_l" />	
-                     <xsd:enumeration value="numeric_83" />	
-                     <xsd:enumeration value="7_l" />	
-                     <xsd:enumeration value="2_years" />	
-                     <xsd:enumeration value="numeric_82" />	
-                     <xsd:enumeration value="numeric_85" />	
-                     <xsd:enumeration value="1x" />	
-                     <xsd:enumeration value="numeric_84" />	
-                     <xsd:enumeration value="9_years" />	
-                     <xsd:enumeration value="jaspo_2x_s" />	
-                     <xsd:enumeration value="6x_s" />	
-                     <xsd:enumeration value="l" />	
-                     <xsd:enumeration value="x_s" />	
-                     <xsd:enumeration value="m" />	
-                     <xsd:enumeration value="jaspo_2x_o" />	
-                     <xsd:enumeration value="s" />	
-                     <xsd:enumeration value="6x_l" />	
-                     <xsd:enumeration value="numeric_87" />	
-                     <xsd:enumeration value="numeric_86" />	
-                     <xsd:enumeration value="numeric_89" />	
-                     <xsd:enumeration value="numeric_150" />	
-                     <xsd:enumeration value="numeric_88" />	
-                     <xsd:enumeration value="numeric_152" />	
-                     <xsd:enumeration value="numeric_90" />	
-                     <xsd:enumeration value="numeric_92" />	
-                     <xsd:enumeration value="jaspo_7x_o" />	
-                     <xsd:enumeration value="numeric_91" />	
-                     <xsd:enumeration value="numeric_94" />	
-                     <xsd:enumeration value="numeric_93" />	
-                     <xsd:enumeration value="2x" />	
-                     <xsd:enumeration value="numeric_96" />	
-                     <xsd:enumeration value="numeric_95" />	
-                     <xsd:enumeration value="numeric_height_190" />	
-                     <xsd:enumeration value="go_50" />	
-                     <xsd:enumeration value="go_7" />	
-                     <xsd:enumeration value="go_8" />	
-                     <xsd:enumeration value="go_9" />	
-                     <xsd:enumeration value="1_month" />	
-                     <xsd:enumeration value="numeric_182" />	
-                     <xsd:enumeration value="numeric_98" />	
-                     <xsd:enumeration value="numeric_97" />	
-                     <xsd:enumeration value="1_year" />	
-                     <xsd:enumeration value="numeric_99" />	
-                     <xsd:enumeration value="jaspo_ot" />	
-                     <xsd:enumeration value="numeric_188" />	
-                     <xsd:enumeration value="16_years" />	
-                     <xsd:enumeration value="eg" />	
-                     <xsd:enumeration value="numeric_height_185" />	
-                     <xsd:enumeration value="6_l" />	
-                     <xsd:enumeration value="3x" />	
-                     <xsd:enumeration value="em" />	
-                     <xsd:enumeration value="numeric_height_180" />	
-                     <xsd:enumeration value="go_0" />	
-                     <xsd:enumeration value="jaspo_2x_ot" />	
-                     <xsd:enumeration value="go_1" />	
-                     <xsd:enumeration value="ep" />	
-                     <xsd:enumeration value="go_2" />	
-                     <xsd:enumeration value="go_3" />	
-                     <xsd:enumeration value="go_4" />	
-                     <xsd:enumeration value="go_5" />	
-                     <xsd:enumeration value="go_6" />	
-                     <xsd:enumeration value="numeric_170" />	
-                     <xsd:enumeration value="numeric_176" />	
-                     <xsd:enumeration value="go_39" />	
-                     <xsd:enumeration value="numeric_height_175" />	
-                     <xsd:enumeration value="go_38" />	
-                     <xsd:enumeration value="21_months" />	
-                     <xsd:enumeration value="4x" />	
-                     <xsd:enumeration value="go_37" />	
-                     <xsd:enumeration value="go_36" />	
-                     <xsd:enumeration value="go_35" />	
-                     <xsd:enumeration value="go_34" />	
-                     <xsd:enumeration value="go_33" />	
-                     <xsd:enumeration value="go_32" />	
-                     <xsd:enumeration value="0_month" />	
-                     <xsd:enumeration value="go_31" />	
-                     <xsd:enumeration value="go_30" />	
-                     <xsd:enumeration value="xx_s" />	
-                     <xsd:enumeration value="numeric_height_170" />	
-                     <xsd:enumeration value="7x_l" />	
-                     <xsd:enumeration value="xx_l" />	
-                     <xsd:enumeration value="18_years" />	
-                     <xsd:enumeration value="8_months" />	
-                     <xsd:enumeration value="jaspo_6x_o" />	
-                     <xsd:enumeration value="numeric_height_165" />	
-                     <xsd:enumeration value="2x_s" />	
-                     <xsd:enumeration value="5_l" />	
-                     <xsd:enumeration value="3_months" />	
-                     <xsd:enumeration value="5x" />	
-                     <xsd:enumeration value="go_49" />	
-                     <xsd:enumeration value="go_48" />	
-                     <xsd:enumeration value="go_47" />	
-                     <xsd:enumeration value="go_46" />	
-                     <xsd:enumeration value="go_45" />	
-                     <xsd:enumeration value="go_44" />	
-                     <xsd:enumeration value="go_43" />	
-                     <xsd:enumeration value="go_42" />	
-                     <xsd:enumeration value="newborn" />	
-                     <xsd:enumeration value="go_41" />	
-                     <xsd:enumeration value="jaspo_6x_s" />	
-                     <xsd:enumeration value="go_40" />	
-                     <xsd:enumeration value="numeric_height_160" />	
-                     <xsd:enumeration value="micro" />	
-                     <xsd:enumeration value="jaspo_6x_ot" />	
-                     <xsd:enumeration value="17_years" />	
-                     <xsd:enumeration value="jaspo_10x_ot" />	
-                     <xsd:enumeration value="go_19" />	
-                     <xsd:enumeration value="numeric_height_155" />	
-                     <xsd:enumeration value="go_18" />	
-                     <xsd:enumeration value="10_months" />	
-                     <xsd:enumeration value="6x" />	
-                     <xsd:enumeration value="go_17" />	
-                     <xsd:enumeration value="go_16" />	
-                     <xsd:enumeration value="go_15" />	
-                     <xsd:enumeration value="12_months" />	
-                     <xsd:enumeration value="numeric_height_75" />	
-                     <xsd:enumeration value="go_14" />	
-                     <xsd:enumeration value="go_13" />	
-                     <xsd:enumeration value="go_12" />	
-                     <xsd:enumeration value="6_years" />	
-                     <xsd:enumeration value="go_11" />	
-                     <xsd:enumeration value="go_10" />	
-                     <xsd:enumeration value="numeric_height_150" />	
-                     <xsd:enumeration value="18_months" />	
-                     <xsd:enumeration value="16_months" />	
-                     <xsd:enumeration value="14_months" />	
-                     <xsd:enumeration value="2_months" />	
-                     <xsd:enumeration value="numeric_height_80" />	
-                     <xsd:enumeration value="7x" />	
-                     <xsd:enumeration value="4_l" />	
-                     <xsd:enumeration value="go_29" />	
-                     <xsd:enumeration value="numeric_height_85" />	
-                     <xsd:enumeration value="go_28" />	
-                     <xsd:enumeration value="6_months" />	
-                     <xsd:enumeration value="4_months" />	
-                     <xsd:enumeration value="go_27" />	
-                     <xsd:enumeration value="go_26" />	
-                     <xsd:enumeration value="jaspo_3x_ot" />	
-                     <xsd:enumeration value="go_25" />	
-                     <xsd:enumeration value="numeric_height_145" />	
-                     <xsd:enumeration value="go_24" />	
-                     <xsd:enumeration value="go_23" />	
-                     <xsd:enumeration value="jaspo_o" />	
-                     <xsd:enumeration value="go_22" />	
-                     <xsd:enumeration value="go_21" />	
-                     <xsd:enumeration value="jaspo_m" />	
-                     <xsd:enumeration value="go_20" />	
-                     <xsd:enumeration value="jaspo_l" />	
-                     <xsd:enumeration value="10x_l" />	
-                     <xsd:enumeration value="jaspo_s" />	
-                     <xsd:enumeration value="numeric_height_140" />	
-                     <xsd:enumeration value="8x_l" />	
-                     <xsd:enumeration value="numeric_height_90" />	
-                     <xsd:enumeration value="8x" />	
-                     <xsd:enumeration value="numeric_height_50" />	
-                     <xsd:enumeration value="3x_s" />	
-                     <xsd:enumeration value="jaspo_5x_o" />	
-                     <xsd:enumeration value="numeric_height_130" />	
-                     <xsd:enumeration value="15_years" />	
-                     <xsd:enumeration value="jaspo_10x_o" />	
-                     <xsd:enumeration value="numeric_height_55" />	
-                     <xsd:enumeration value="numeric_height_135" />	
-                     <xsd:enumeration value="23_months" />	
-                     <xsd:enumeration value="3x_l" />	
-                     <xsd:enumeration value="jaspo_5x_s" />	
-                     <xsd:enumeration value="numeric_1" />	
-                     <xsd:enumeration value="numeric_0" />	
-                     <xsd:enumeration value="l_l" />	
-                     <xsd:enumeration value="s_s_s" />	
-                     <xsd:enumeration value="9x" />	
-                     <xsd:enumeration value="3_l" />	
-                     <xsd:enumeration value="numeric_height_60" />	
-                     <xsd:enumeration value="one_size" />	
-                     <xsd:enumeration value="numeric_height_120" />	
-                     <xsd:enumeration value="numeric_height_65" />	
-                     <xsd:enumeration value="numeric_height_125" />	
-                     <xsd:enumeration value="14_years" />	
-                     <xsd:enumeration value="jaspo_7x_ot" />	
-                     <xsd:enumeration value="numeric_00" />	
-                     <xsd:enumeration value="numeric_height_70" />	
-                     <xsd:enumeration value="numeric_height_110" />	
-                     <xsd:enumeration value="numeric_height_115" />	
-                     <xsd:enumeration value="10_years" />	
-                     <xsd:enumeration value="numeric_18" />	
-                     <xsd:enumeration value="numeric_17" />	
-                     <xsd:enumeration value="numeric_19" />	
-                     <xsd:enumeration value="13_years" />	
-                     <xsd:enumeration value="9x_l" />	
-                     <xsd:enumeration value="numeric_10" />	
-                     <xsd:enumeration value="numeric_12" />	
-                     <xsd:enumeration value="numeric_11" />	
-                     <xsd:enumeration value="numeric_14" />	
-                     <xsd:enumeration value="numeric_13" />	
-                     <xsd:enumeration value="numeric_16" />	
-                     <xsd:enumeration value="numeric_100" />	
-                     <xsd:enumeration value="numeric_15" />	
-                     <xsd:enumeration value="2_l" />	
-                     <xsd:enumeration value="4x_s" />	
-                     <xsd:enumeration value="numeric_height_100" />	
-                     <xsd:enumeration value="jaspo_x_ot" />	
-                     <xsd:enumeration value="7_years" />	
-                     <xsd:enumeration value="4x_l" />	
-                     <xsd:enumeration value="numeric_3" />	
-                     <xsd:enumeration value="numeric_2" />	
-                     <xsd:enumeration value="numeric_5" />	
-                     <xsd:enumeration value="jaspo_4x_s" />	
-                     <xsd:enumeration value="numeric_4" />	
-                     <xsd:enumeration value="numeric_7" />	
-                     <xsd:enumeration value="numeric_6" />	
-                     <xsd:enumeration value="numeric_9" />	
-                     <xsd:enumeration value="jaspo_4x_o" />	
-                     <xsd:enumeration value="numeric_8" />	
-                     <xsd:enumeration value="numeric_29" />	
-                     <xsd:enumeration value="numeric_28" />	
-                     <xsd:enumeration value="4_years" />	
-                     <xsd:enumeration value="jaspo_9x_ot" />	
-                     <xsd:enumeration value="numeric_21" />	
-                     <xsd:enumeration value="numeric_20" />	
-                     <xsd:enumeration value="numeric_23" />	
-                     <xsd:enumeration value="numeric_height_105" />	
-                     <xsd:enumeration value="numeric_22" />	
-                     <xsd:enumeration value="numeric_25" />	
-                     <xsd:enumeration value="numeric_24" />	
-                     <xsd:enumeration value="numeric_27" />	
-                     <xsd:enumeration value="numeric_26" />	
-                     <xsd:enumeration value="numeric_113" />	
-                     <xsd:enumeration value="numeric_112" />	
-                     <xsd:enumeration value="numeric_115" />	
-                     <xsd:enumeration value="numeric_114" />	
-                     <xsd:enumeration value="numeric_height_95" />	
-                     <xsd:enumeration value="numeric_117" />	
-                     <xsd:enumeration value="numeric_116" />	
-                     <xsd:enumeration value="numeric_30" />	
-                     <xsd:enumeration value="numeric_119" />	
-                     <xsd:enumeration value="numeric_118" />	
-                     <xsd:enumeration value="22_months" />	
-                     <xsd:enumeration value="jaspo_9x_o" />	
-                     <xsd:enumeration value="jaspo_4x_ot" />	
-                     <xsd:enumeration value="numeric_39" />	
-                     <xsd:enumeration value="5_years" />	
-                     <xsd:enumeration value="numeric_32" />	
-                     <xsd:enumeration value="numeric_31" />	
-                     <xsd:enumeration value="numeric_34" />	
-                     <xsd:enumeration value="numeric_33" />	
-                     <xsd:enumeration value="7_months" />	
-                     <xsd:enumeration value="numeric_36" />	
-                     <xsd:enumeration value="numeric_120" />	
-                     <xsd:enumeration value="numeric_35" />	
-                     <xsd:enumeration value="free_size" />	
-                     <xsd:enumeration value="numeric_38" />	
-                     <xsd:enumeration value="numeric_122" />	
-                     <xsd:enumeration value="numeric_37" />	
-                     <xsd:enumeration value="numeric_121" />	
-                     <xsd:enumeration value="numeric_102" />	
-                     <xsd:enumeration value="numeric_101" />	
-                     <xsd:enumeration value="numeric_104" />	
-                     <xsd:enumeration value="numeric_103" />	
-                     <xsd:enumeration value="numeric_106" />	
-                     <xsd:enumeration value="numeric_105" />	
-                     <xsd:enumeration value="preemie" />	
-                     <xsd:enumeration value="numeric_41" />	
-                     <xsd:enumeration value="numeric_108" />	
-                     <xsd:enumeration value="9_l" />	
-                     <xsd:enumeration value="numeric_40" />	
-                     <xsd:enumeration value="numeric_107" />	
-                     <xsd:enumeration value="11_years" />	
-                     <xsd:enumeration value="numeric_109" />	
-                     <xsd:enumeration value="numeric_43" />	
-                     <xsd:enumeration value="numeric_42" />	
-                     <xsd:enumeration value="numeric_45" />	
-                     <xsd:enumeration value="numeric_44" />	
-                     <xsd:enumeration value="numeric_47" />	
-                     <xsd:enumeration value="numeric_46" />	
-                     <xsd:enumeration value="numeric_49" />	
-                     <xsd:enumeration value="numeric_111" />	
-                     <xsd:enumeration value="numeric_48" />	
-                     <xsd:enumeration value="numeric_110" />	
-                     <xsd:enumeration value="jaspo_s_s" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+
+            <xsd:element name="ShirtNeckSizeTo" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="44" />
+                     <xsd:enumeration value="16_point_5" />
+                     <xsd:enumeration value="45" />
+                     <xsd:enumeration value="46" />
+                     <xsd:enumeration value="47" />
+                     <xsd:enumeration value="48" />
+                     <xsd:enumeration value="49" />
+                     <xsd:enumeration value="14_point_5" />
+                     <xsd:enumeration value="50" />
+                     <xsd:enumeration value="18_point_5" />
+                     <xsd:enumeration value="51" />
+                     <xsd:enumeration value="52" />
+                     <xsd:enumeration value="53" />
+                     <xsd:enumeration value="20_point_5" />
+                     <xsd:enumeration value="54" />
+                     <xsd:enumeration value="55" />
+                     <xsd:enumeration value="56" />
+                     <xsd:enumeration value="12" />
+                     <xsd:enumeration value="13" />
+                     <xsd:enumeration value="22_point_5" />
+                     <xsd:enumeration value="14" />
+                     <xsd:enumeration value="15" />
+                     <xsd:enumeration value="16" />
+                     <xsd:enumeration value="17" />
+                     <xsd:enumeration value="18" />
+                     <xsd:enumeration value="19" />
+                     <xsd:enumeration value="12_point_5" />
+                     <xsd:enumeration value="20" />
+                     <xsd:enumeration value="21" />
+                     <xsd:enumeration value="22" />
+                     <xsd:enumeration value="23" />
+                     <xsd:enumeration value="24" />
+                     <xsd:enumeration value="15_point_5" />
+                     <xsd:enumeration value="19_point_5" />
+                     <xsd:enumeration value="17_point_5" />
+                     <xsd:enumeration value="33" />
+                     <xsd:enumeration value="34" />
+                     <xsd:enumeration value="23_point_5" />
+                     <xsd:enumeration value="35" />
+                     <xsd:enumeration value="36" />
+                     <xsd:enumeration value="37" />
+                     <xsd:enumeration value="38" />
+                     <xsd:enumeration value="39" />
+                     <xsd:enumeration value="21_point_5" />
+                     <xsd:enumeration value="13_point_5" />
+                     <xsd:enumeration value="40" />
+                     <xsd:enumeration value="41" />
+                     <xsd:enumeration value="42" />
+                     <xsd:enumeration value="43" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="ShirtSize" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="numeric_134" />
+                     <xsd:enumeration value="11_months" />
+                     <xsd:enumeration value="numeric_50" />
+                     <xsd:enumeration value="egg" />
+                     <xsd:enumeration value="13_months" />
+                     <xsd:enumeration value="numeric_52" />
+                     <xsd:enumeration value="numeric_51" />
+                     <xsd:enumeration value="jaspo_3x_s" />
+                     <xsd:enumeration value="5x_l" />
+                     <xsd:enumeration value="jaspo_3x_o" />
+                     <xsd:enumeration value="5x_s" />
+                     <xsd:enumeration value="17_months" />
+                     <xsd:enumeration value="19_months" />
+                     <xsd:enumeration value="numeric_54" />
+                     <xsd:enumeration value="3_years" />
+                     <xsd:enumeration value="numeric_53" />
+                     <xsd:enumeration value="15_months" />
+                     <xsd:enumeration value="numeric_56" />
+                     <xsd:enumeration value="numeric_140" />
+                     <xsd:enumeration value="numeric_55" />
+                     <xsd:enumeration value="numeric_58" />
+                     <xsd:enumeration value="numeric_57" />
+                     <xsd:enumeration value="numeric_59" />
+                     <xsd:enumeration value="numeric_124" />
+                     <xsd:enumeration value="numeric_123" />
+                     <xsd:enumeration value="numeric_126" />
+                     <xsd:enumeration value="numeric_125" />
+                     <xsd:enumeration value="jaspo_8x_o" />
+                     <xsd:enumeration value="numeric_128" />
+                     <xsd:enumeration value="numeric_61" />
+                     <xsd:enumeration value="jaspo_8x_ot" />
+                     <xsd:enumeration value="numeric_60" />
+                     <xsd:enumeration value="numeric_127" />
+                     <xsd:enumeration value="8_l" />
+                     <xsd:enumeration value="numeric_63" />
+                     <xsd:enumeration value="numeric_62" />
+                     <xsd:enumeration value="numeric_129" />
+                     <xsd:enumeration value="jaspo_x_s" />
+                     <xsd:enumeration value="numeric_65" />
+                     <xsd:enumeration value="jaspo_x_o" />
+                     <xsd:enumeration value="numeric_64" />
+                     <xsd:enumeration value="10x" />
+                     <xsd:enumeration value="numeric_67" />
+                     <xsd:enumeration value="numeric_66" />
+                     <xsd:enumeration value="numeric_69" />
+                     <xsd:enumeration value="numeric_68" />
+                     <xsd:enumeration value="numeric_130" />
+                     <xsd:enumeration value="12_years" />
+                     <xsd:enumeration value="numeric_70" />
+                     <xsd:enumeration value="20_months" />
+                     <xsd:enumeration value="numeric_158" />
+                     <xsd:enumeration value="numeric_72" />
+                     <xsd:enumeration value="numeric_71" />
+                     <xsd:enumeration value="numeric_74" />
+                     <xsd:enumeration value="numeric_73" />
+                     <xsd:enumeration value="jaspo_5x_ot" />
+                     <xsd:enumeration value="0x" />
+                     <xsd:enumeration value="24_months" />
+                     <xsd:enumeration value="teeny" />
+                     <xsd:enumeration value="numeric_76" />
+                     <xsd:enumeration value="numeric_160" />
+                     <xsd:enumeration value="numeric_75" />
+                     <xsd:enumeration value="9_months" />
+                     <xsd:enumeration value="numeric_78" />
+                     <xsd:enumeration value="numeric_77" />
+                     <xsd:enumeration value="10_l" />
+                     <xsd:enumeration value="numeric_164" />
+                     <xsd:enumeration value="numeric_79" />
+                     <xsd:enumeration value="8_years" />
+                     <xsd:enumeration value="numeric_146" />
+                     <xsd:enumeration value="ss" />
+                     <xsd:enumeration value="numeric_81" />
+                     <xsd:enumeration value="numeric_80" />
+                     <xsd:enumeration value="5_months" />
+                     <xsd:enumeration value="x_l" />
+                     <xsd:enumeration value="numeric_83" />
+                     <xsd:enumeration value="7_l" />
+                     <xsd:enumeration value="2_years" />
+                     <xsd:enumeration value="numeric_82" />
+                     <xsd:enumeration value="numeric_85" />
+                     <xsd:enumeration value="1x" />
+                     <xsd:enumeration value="numeric_84" />
+                     <xsd:enumeration value="9_years" />
+                     <xsd:enumeration value="jaspo_2x_s" />
+                     <xsd:enumeration value="6x_s" />
+                     <xsd:enumeration value="l" />
+                     <xsd:enumeration value="x_s" />
+                     <xsd:enumeration value="m" />
+                     <xsd:enumeration value="jaspo_2x_o" />
+                     <xsd:enumeration value="s" />
+                     <xsd:enumeration value="6x_l" />
+                     <xsd:enumeration value="numeric_87" />
+                     <xsd:enumeration value="numeric_86" />
+                     <xsd:enumeration value="numeric_89" />
+                     <xsd:enumeration value="numeric_150" />
+                     <xsd:enumeration value="numeric_88" />
+                     <xsd:enumeration value="numeric_152" />
+                     <xsd:enumeration value="numeric_90" />
+                     <xsd:enumeration value="numeric_92" />
+                     <xsd:enumeration value="jaspo_7x_o" />
+                     <xsd:enumeration value="numeric_91" />
+                     <xsd:enumeration value="numeric_94" />
+                     <xsd:enumeration value="numeric_93" />
+                     <xsd:enumeration value="2x" />
+                     <xsd:enumeration value="numeric_96" />
+                     <xsd:enumeration value="numeric_95" />
+                     <xsd:enumeration value="numeric_height_190" />
+                     <xsd:enumeration value="go_50" />
+                     <xsd:enumeration value="go_7" />
+                     <xsd:enumeration value="go_8" />
+                     <xsd:enumeration value="go_9" />
+                     <xsd:enumeration value="1_month" />
+                     <xsd:enumeration value="numeric_182" />
+                     <xsd:enumeration value="numeric_98" />
+                     <xsd:enumeration value="numeric_97" />
+                     <xsd:enumeration value="1_year" />
+                     <xsd:enumeration value="numeric_99" />
+                     <xsd:enumeration value="jaspo_ot" />
+                     <xsd:enumeration value="numeric_188" />
+                     <xsd:enumeration value="16_years" />
+                     <xsd:enumeration value="eg" />
+                     <xsd:enumeration value="numeric_height_185" />
+                     <xsd:enumeration value="6_l" />
+                     <xsd:enumeration value="3x" />
+                     <xsd:enumeration value="em" />
+                     <xsd:enumeration value="numeric_height_180" />
+                     <xsd:enumeration value="go_0" />
+                     <xsd:enumeration value="jaspo_2x_ot" />
+                     <xsd:enumeration value="go_1" />
+                     <xsd:enumeration value="ep" />
+                     <xsd:enumeration value="go_2" />
+                     <xsd:enumeration value="go_3" />
+                     <xsd:enumeration value="go_4" />
+                     <xsd:enumeration value="go_5" />
+                     <xsd:enumeration value="go_6" />
+                     <xsd:enumeration value="numeric_170" />
+                     <xsd:enumeration value="numeric_176" />
+                     <xsd:enumeration value="go_39" />
+                     <xsd:enumeration value="numeric_height_175" />
+                     <xsd:enumeration value="go_38" />
+                     <xsd:enumeration value="21_months" />
+                     <xsd:enumeration value="4x" />
+                     <xsd:enumeration value="go_37" />
+                     <xsd:enumeration value="go_36" />
+                     <xsd:enumeration value="go_35" />
+                     <xsd:enumeration value="go_34" />
+                     <xsd:enumeration value="go_33" />
+                     <xsd:enumeration value="go_32" />
+                     <xsd:enumeration value="0_month" />
+                     <xsd:enumeration value="go_31" />
+                     <xsd:enumeration value="go_30" />
+                     <xsd:enumeration value="xx_s" />
+                     <xsd:enumeration value="numeric_height_170" />
+                     <xsd:enumeration value="7x_l" />
+                     <xsd:enumeration value="xx_l" />
+                     <xsd:enumeration value="18_years" />
+                     <xsd:enumeration value="8_months" />
+                     <xsd:enumeration value="jaspo_6x_o" />
+                     <xsd:enumeration value="numeric_height_165" />
+                     <xsd:enumeration value="2x_s" />
+                     <xsd:enumeration value="5_l" />
+                     <xsd:enumeration value="3_months" />
+                     <xsd:enumeration value="5x" />
+                     <xsd:enumeration value="go_49" />
+                     <xsd:enumeration value="go_48" />
+                     <xsd:enumeration value="go_47" />
+                     <xsd:enumeration value="go_46" />
+                     <xsd:enumeration value="go_45" />
+                     <xsd:enumeration value="go_44" />
+                     <xsd:enumeration value="go_43" />
+                     <xsd:enumeration value="go_42" />
+                     <xsd:enumeration value="newborn" />
+                     <xsd:enumeration value="go_41" />
+                     <xsd:enumeration value="jaspo_6x_s" />
+                     <xsd:enumeration value="go_40" />
+                     <xsd:enumeration value="numeric_height_160" />
+                     <xsd:enumeration value="micro" />
+                     <xsd:enumeration value="jaspo_6x_ot" />
+                     <xsd:enumeration value="17_years" />
+                     <xsd:enumeration value="jaspo_10x_ot" />
+                     <xsd:enumeration value="go_19" />
+                     <xsd:enumeration value="numeric_height_155" />
+                     <xsd:enumeration value="go_18" />
+                     <xsd:enumeration value="10_months" />
+                     <xsd:enumeration value="6x" />
+                     <xsd:enumeration value="go_17" />
+                     <xsd:enumeration value="go_16" />
+                     <xsd:enumeration value="go_15" />
+                     <xsd:enumeration value="12_months" />
+                     <xsd:enumeration value="numeric_height_75" />
+                     <xsd:enumeration value="go_14" />
+                     <xsd:enumeration value="go_13" />
+                     <xsd:enumeration value="go_12" />
+                     <xsd:enumeration value="6_years" />
+                     <xsd:enumeration value="go_11" />
+                     <xsd:enumeration value="go_10" />
+                     <xsd:enumeration value="numeric_height_150" />
+                     <xsd:enumeration value="18_months" />
+                     <xsd:enumeration value="16_months" />
+                     <xsd:enumeration value="14_months" />
+                     <xsd:enumeration value="2_months" />
+                     <xsd:enumeration value="numeric_height_80" />
+                     <xsd:enumeration value="7x" />
+                     <xsd:enumeration value="4_l" />
+                     <xsd:enumeration value="go_29" />
+                     <xsd:enumeration value="numeric_height_85" />
+                     <xsd:enumeration value="go_28" />
+                     <xsd:enumeration value="6_months" />
+                     <xsd:enumeration value="4_months" />
+                     <xsd:enumeration value="go_27" />
+                     <xsd:enumeration value="go_26" />
+                     <xsd:enumeration value="jaspo_3x_ot" />
+                     <xsd:enumeration value="go_25" />
+                     <xsd:enumeration value="numeric_height_145" />
+                     <xsd:enumeration value="go_24" />
+                     <xsd:enumeration value="go_23" />
+                     <xsd:enumeration value="jaspo_o" />
+                     <xsd:enumeration value="go_22" />
+                     <xsd:enumeration value="go_21" />
+                     <xsd:enumeration value="jaspo_m" />
+                     <xsd:enumeration value="go_20" />
+                     <xsd:enumeration value="jaspo_l" />
+                     <xsd:enumeration value="10x_l" />
+                     <xsd:enumeration value="jaspo_s" />
+                     <xsd:enumeration value="numeric_height_140" />
+                     <xsd:enumeration value="8x_l" />
+                     <xsd:enumeration value="numeric_height_90" />
+                     <xsd:enumeration value="8x" />
+                     <xsd:enumeration value="numeric_height_50" />
+                     <xsd:enumeration value="3x_s" />
+                     <xsd:enumeration value="jaspo_5x_o" />
+                     <xsd:enumeration value="numeric_height_130" />
+                     <xsd:enumeration value="15_years" />
+                     <xsd:enumeration value="jaspo_10x_o" />
+                     <xsd:enumeration value="numeric_height_55" />
+                     <xsd:enumeration value="numeric_height_135" />
+                     <xsd:enumeration value="23_months" />
+                     <xsd:enumeration value="3x_l" />
+                     <xsd:enumeration value="jaspo_5x_s" />
+                     <xsd:enumeration value="numeric_1" />
+                     <xsd:enumeration value="numeric_0" />
+                     <xsd:enumeration value="l_l" />
+                     <xsd:enumeration value="s_s_s" />
+                     <xsd:enumeration value="9x" />
+                     <xsd:enumeration value="3_l" />
+                     <xsd:enumeration value="numeric_height_60" />
+                     <xsd:enumeration value="one_size" />
+                     <xsd:enumeration value="numeric_height_120" />
+                     <xsd:enumeration value="numeric_height_65" />
+                     <xsd:enumeration value="numeric_height_125" />
+                     <xsd:enumeration value="14_years" />
+                     <xsd:enumeration value="jaspo_7x_ot" />
+                     <xsd:enumeration value="numeric_00" />
+                     <xsd:enumeration value="numeric_height_70" />
+                     <xsd:enumeration value="numeric_height_110" />
+                     <xsd:enumeration value="numeric_height_115" />
+                     <xsd:enumeration value="10_years" />
+                     <xsd:enumeration value="numeric_18" />
+                     <xsd:enumeration value="numeric_17" />
+                     <xsd:enumeration value="numeric_19" />
+                     <xsd:enumeration value="13_years" />
+                     <xsd:enumeration value="9x_l" />
+                     <xsd:enumeration value="numeric_10" />
+                     <xsd:enumeration value="numeric_12" />
+                     <xsd:enumeration value="numeric_11" />
+                     <xsd:enumeration value="numeric_14" />
+                     <xsd:enumeration value="numeric_13" />
+                     <xsd:enumeration value="numeric_16" />
+                     <xsd:enumeration value="numeric_100" />
+                     <xsd:enumeration value="numeric_15" />
+                     <xsd:enumeration value="2_l" />
+                     <xsd:enumeration value="4x_s" />
+                     <xsd:enumeration value="numeric_height_100" />
+                     <xsd:enumeration value="jaspo_x_ot" />
+                     <xsd:enumeration value="7_years" />
+                     <xsd:enumeration value="4x_l" />
+                     <xsd:enumeration value="numeric_3" />
+                     <xsd:enumeration value="numeric_2" />
+                     <xsd:enumeration value="numeric_5" />
+                     <xsd:enumeration value="jaspo_4x_s" />
+                     <xsd:enumeration value="numeric_4" />
+                     <xsd:enumeration value="numeric_7" />
+                     <xsd:enumeration value="numeric_6" />
+                     <xsd:enumeration value="numeric_9" />
+                     <xsd:enumeration value="jaspo_4x_o" />
+                     <xsd:enumeration value="numeric_8" />
+                     <xsd:enumeration value="numeric_29" />
+                     <xsd:enumeration value="numeric_28" />
+                     <xsd:enumeration value="4_years" />
+                     <xsd:enumeration value="jaspo_9x_ot" />
+                     <xsd:enumeration value="numeric_21" />
+                     <xsd:enumeration value="numeric_20" />
+                     <xsd:enumeration value="numeric_23" />
+                     <xsd:enumeration value="numeric_height_105" />
+                     <xsd:enumeration value="numeric_22" />
+                     <xsd:enumeration value="numeric_25" />
+                     <xsd:enumeration value="numeric_24" />
+                     <xsd:enumeration value="numeric_27" />
+                     <xsd:enumeration value="numeric_26" />
+                     <xsd:enumeration value="numeric_113" />
+                     <xsd:enumeration value="numeric_112" />
+                     <xsd:enumeration value="numeric_115" />
+                     <xsd:enumeration value="numeric_114" />
+                     <xsd:enumeration value="numeric_height_95" />
+                     <xsd:enumeration value="numeric_117" />
+                     <xsd:enumeration value="numeric_116" />
+                     <xsd:enumeration value="numeric_30" />
+                     <xsd:enumeration value="numeric_119" />
+                     <xsd:enumeration value="numeric_118" />
+                     <xsd:enumeration value="22_months" />
+                     <xsd:enumeration value="jaspo_9x_o" />
+                     <xsd:enumeration value="jaspo_4x_ot" />
+                     <xsd:enumeration value="numeric_39" />
+                     <xsd:enumeration value="5_years" />
+                     <xsd:enumeration value="numeric_32" />
+                     <xsd:enumeration value="numeric_31" />
+                     <xsd:enumeration value="numeric_34" />
+                     <xsd:enumeration value="numeric_33" />
+                     <xsd:enumeration value="7_months" />
+                     <xsd:enumeration value="numeric_36" />
+                     <xsd:enumeration value="numeric_120" />
+                     <xsd:enumeration value="numeric_35" />
+                     <xsd:enumeration value="free_size" />
+                     <xsd:enumeration value="numeric_38" />
+                     <xsd:enumeration value="numeric_122" />
+                     <xsd:enumeration value="numeric_37" />
+                     <xsd:enumeration value="numeric_121" />
+                     <xsd:enumeration value="numeric_102" />
+                     <xsd:enumeration value="numeric_101" />
+                     <xsd:enumeration value="numeric_104" />
+                     <xsd:enumeration value="numeric_103" />
+                     <xsd:enumeration value="numeric_106" />
+                     <xsd:enumeration value="numeric_105" />
+                     <xsd:enumeration value="preemie" />
+                     <xsd:enumeration value="numeric_41" />
+                     <xsd:enumeration value="numeric_108" />
+                     <xsd:enumeration value="9_l" />
+                     <xsd:enumeration value="numeric_40" />
+                     <xsd:enumeration value="numeric_107" />
+                     <xsd:enumeration value="11_years" />
+                     <xsd:enumeration value="numeric_109" />
+                     <xsd:enumeration value="numeric_43" />
+                     <xsd:enumeration value="numeric_42" />
+                     <xsd:enumeration value="numeric_45" />
+                     <xsd:enumeration value="numeric_44" />
+                     <xsd:enumeration value="numeric_47" />
+                     <xsd:enumeration value="numeric_46" />
+                     <xsd:enumeration value="numeric_49" />
+                     <xsd:enumeration value="numeric_111" />
+                     <xsd:enumeration value="numeric_48" />
+                     <xsd:enumeration value="numeric_110" />
+                     <xsd:enumeration value="jaspo_s_s" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			<!--Valid values for ShirtSizeClass are as follows:
 					 All MPs except JP, IN & BR: age,alpha,numeric,neck,neck_sleeve
 					 JP: age,alpha,numeric,numeric_height,alpha_jaspo,numeric_go,neck,neck_sleeve
 					 IN & BR : age,alpha,numeric
                 -->
-			
-            <xsd:element name="ShirtSizeClass" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="alpha_jaspo" />	
-                     <xsd:enumeration value="numeric_go" />	
-                     <xsd:enumeration value="numeric_height" />	
-                     <xsd:enumeration value="alpha" />	
-                     <xsd:enumeration value="numeric" />	
-                     <xsd:enumeration value="neck_sleeve" />	
-                     <xsd:enumeration value="neck" />	
-                     <xsd:enumeration value="age" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-            <xsd:element name="ShirtSizeSystem" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
+
+            <xsd:element name="ShirtSizeClass" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="alpha_jaspo" />
+                     <xsd:enumeration value="numeric_go" />
+                     <xsd:enumeration value="numeric_height" />
+                     <xsd:enumeration value="alpha" />
+                     <xsd:enumeration value="numeric" />
+                     <xsd:enumeration value="neck_sleeve" />
+                     <xsd:enumeration value="neck" />
+                     <xsd:enumeration value="age" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="ShirtSizeSystem" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
                        <!-- The below value is only applicable for DE,NL,SE,PL -->
-                     <xsd:enumeration value="as3" />	
+                     <xsd:enumeration value="as3" />
 				  <!-- The below value is only applicable for BR -->
                      <xsd:enumeration value="as2" />
-                  <!-- The below value is only applicable for IN -->  					 
-                     <xsd:enumeration value="as5" />	
+                  <!-- The below value is only applicable for IN -->
+                     <xsd:enumeration value="as5" />
 			      <!-- The below value is only applicable for FR,ES,AE,SA -->
                      <xsd:enumeration value="as4" />
-				  <!-- The below value is only applicable for JP -->  					 
-                     <xsd:enumeration value="as7" />	
+				  <!-- The below value is only applicable for JP -->
+                     <xsd:enumeration value="as7" />
 					<!-- The below value is only applicable for IT -->
-                     <xsd:enumeration value="as6" />	
-					<!-- The below value is only applicable for UK -->  
-                     <xsd:enumeration value="as8" />	
-					 <!-- The below value is only applicable for US,CA,MX and AU -->  
-                     <xsd:enumeration value="as1" />		
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-            <xsd:element name="ShirtSizeTo" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="numeric_134" />	
-                     <xsd:enumeration value="11_months" />	
-                     <xsd:enumeration value="numeric_50" />	
-                     <xsd:enumeration value="egg" />	
-                     <xsd:enumeration value="13_months" />	
-                     <xsd:enumeration value="numeric_52" />	
-                     <xsd:enumeration value="numeric_51" />	
-                     <xsd:enumeration value="jaspo_3x_s" />	
-                     <xsd:enumeration value="5x_l" />	
-                     <xsd:enumeration value="jaspo_3x_o" />	
-                     <xsd:enumeration value="5x_s" />	
-                     <xsd:enumeration value="17_months" />	
-                     <xsd:enumeration value="19_months" />	
-                     <xsd:enumeration value="numeric_54" />	
-                     <xsd:enumeration value="3_years" />	
-                     <xsd:enumeration value="numeric_53" />	
-                     <xsd:enumeration value="15_months" />	
-                     <xsd:enumeration value="numeric_56" />	
-                     <xsd:enumeration value="numeric_140" />	
-                     <xsd:enumeration value="numeric_55" />	
-                     <xsd:enumeration value="numeric_58" />	
-                     <xsd:enumeration value="numeric_57" />	
-                     <xsd:enumeration value="numeric_59" />	
-                     <xsd:enumeration value="numeric_124" />	
-                     <xsd:enumeration value="numeric_123" />	
-                     <xsd:enumeration value="numeric_126" />	
-                     <xsd:enumeration value="numeric_125" />	
-                     <xsd:enumeration value="jaspo_8x_o" />	
-                     <xsd:enumeration value="numeric_128" />	
-                     <xsd:enumeration value="numeric_61" />	
-                     <xsd:enumeration value="jaspo_8x_ot" />	
-                     <xsd:enumeration value="numeric_60" />	
-                     <xsd:enumeration value="numeric_127" />	
-                     <xsd:enumeration value="8_l" />	
-                     <xsd:enumeration value="numeric_63" />	
-                     <xsd:enumeration value="numeric_62" />	
-                     <xsd:enumeration value="numeric_129" />	
-                     <xsd:enumeration value="jaspo_x_s" />	
-                     <xsd:enumeration value="numeric_65" />	
-                     <xsd:enumeration value="jaspo_x_o" />	
-                     <xsd:enumeration value="numeric_64" />	
-                     <xsd:enumeration value="10x" />	
-                     <xsd:enumeration value="numeric_67" />	
-                     <xsd:enumeration value="numeric_66" />	
-                     <xsd:enumeration value="numeric_69" />	
-                     <xsd:enumeration value="numeric_68" />	
-                     <xsd:enumeration value="numeric_130" />	
-                     <xsd:enumeration value="12_years" />	
-                     <xsd:enumeration value="numeric_70" />	
-                     <xsd:enumeration value="20_months" />	
-                     <xsd:enumeration value="numeric_158" />	
-                     <xsd:enumeration value="numeric_72" />	
-                     <xsd:enumeration value="numeric_71" />	
-                     <xsd:enumeration value="numeric_74" />	
-                     <xsd:enumeration value="numeric_73" />	
-                     <xsd:enumeration value="jaspo_5x_ot" />	
-                     <xsd:enumeration value="0x" />	
-                     <xsd:enumeration value="24_months" />	
-                     <xsd:enumeration value="teeny" />	
-                     <xsd:enumeration value="numeric_76" />	
-                     <xsd:enumeration value="numeric_160" />	
-                     <xsd:enumeration value="numeric_75" />	
-                     <xsd:enumeration value="9_months" />	
-                     <xsd:enumeration value="numeric_78" />	
-                     <xsd:enumeration value="numeric_77" />	
-                     <xsd:enumeration value="10_l" />	
-                     <xsd:enumeration value="numeric_164" />	
-                     <xsd:enumeration value="numeric_79" />	
-                     <xsd:enumeration value="8_years" />	
-                     <xsd:enumeration value="numeric_146" />	
-                     <xsd:enumeration value="ss" />	
-                     <xsd:enumeration value="numeric_81" />	
-                     <xsd:enumeration value="numeric_80" />	
-                     <xsd:enumeration value="5_months" />	
-                     <xsd:enumeration value="x_l" />	
-                     <xsd:enumeration value="numeric_83" />	
-                     <xsd:enumeration value="7_l" />	
-                     <xsd:enumeration value="2_years" />	
-                     <xsd:enumeration value="numeric_82" />	
-                     <xsd:enumeration value="numeric_85" />	
-                     <xsd:enumeration value="1x" />	
-                     <xsd:enumeration value="numeric_84" />	
-                     <xsd:enumeration value="9_years" />	
-                     <xsd:enumeration value="jaspo_2x_s" />	
-                     <xsd:enumeration value="6x_s" />	
-                     <xsd:enumeration value="l" />	
-                     <xsd:enumeration value="x_s" />	
-                     <xsd:enumeration value="m" />	
-                     <xsd:enumeration value="jaspo_2x_o" />	
-                     <xsd:enumeration value="s" />	
-                     <xsd:enumeration value="6x_l" />	
-                     <xsd:enumeration value="numeric_87" />	
-                     <xsd:enumeration value="numeric_86" />	
-                     <xsd:enumeration value="numeric_89" />	
-                     <xsd:enumeration value="numeric_150" />	
-                     <xsd:enumeration value="numeric_88" />	
-                     <xsd:enumeration value="numeric_152" />	
-                     <xsd:enumeration value="numeric_90" />	
-                     <xsd:enumeration value="numeric_92" />	
-                     <xsd:enumeration value="jaspo_7x_o" />	
-                     <xsd:enumeration value="numeric_91" />	
-                     <xsd:enumeration value="numeric_94" />	
-                     <xsd:enumeration value="numeric_93" />	
-                     <xsd:enumeration value="2x" />	
-                     <xsd:enumeration value="numeric_96" />	
-                     <xsd:enumeration value="numeric_95" />	
-                     <xsd:enumeration value="numeric_height_190" />	
-                     <xsd:enumeration value="go_50" />	
-                     <xsd:enumeration value="go_7" />	
-                     <xsd:enumeration value="go_8" />	
-                     <xsd:enumeration value="go_9" />	
-                     <xsd:enumeration value="1_month" />	
-                     <xsd:enumeration value="numeric_182" />	
-                     <xsd:enumeration value="numeric_98" />	
-                     <xsd:enumeration value="numeric_97" />	
-                     <xsd:enumeration value="1_year" />	
-                     <xsd:enumeration value="numeric_99" />	
-                     <xsd:enumeration value="jaspo_ot" />	
-                     <xsd:enumeration value="numeric_188" />	
-                     <xsd:enumeration value="16_years" />	
-                     <xsd:enumeration value="eg" />	
-                     <xsd:enumeration value="numeric_height_185" />	
-                     <xsd:enumeration value="6_l" />	
-                     <xsd:enumeration value="3x" />	
-                     <xsd:enumeration value="em" />	
-                     <xsd:enumeration value="numeric_height_180" />	
-                     <xsd:enumeration value="go_0" />	
-                     <xsd:enumeration value="jaspo_2x_ot" />	
-                     <xsd:enumeration value="go_1" />	
-                     <xsd:enumeration value="ep" />	
-                     <xsd:enumeration value="go_2" />	
-                     <xsd:enumeration value="go_3" />	
-                     <xsd:enumeration value="go_4" />	
-                     <xsd:enumeration value="go_5" />	
-                     <xsd:enumeration value="go_6" />	
-                     <xsd:enumeration value="numeric_170" />	
-                     <xsd:enumeration value="numeric_176" />	
-                     <xsd:enumeration value="go_39" />	
-                     <xsd:enumeration value="numeric_height_175" />	
-                     <xsd:enumeration value="go_38" />	
-                     <xsd:enumeration value="21_months" />	
-                     <xsd:enumeration value="4x" />	
-                     <xsd:enumeration value="go_37" />	
-                     <xsd:enumeration value="go_36" />	
-                     <xsd:enumeration value="go_35" />	
-                     <xsd:enumeration value="go_34" />	
-                     <xsd:enumeration value="go_33" />	
-                     <xsd:enumeration value="go_32" />	
-                     <xsd:enumeration value="0_month" />	
-                     <xsd:enumeration value="go_31" />	
-                     <xsd:enumeration value="go_30" />	
-                     <xsd:enumeration value="xx_s" />	
-                     <xsd:enumeration value="numeric_height_170" />	
-                     <xsd:enumeration value="7x_l" />	
-                     <xsd:enumeration value="xx_l" />	
-                     <xsd:enumeration value="18_years" />	
-                     <xsd:enumeration value="8_months" />	
-                     <xsd:enumeration value="jaspo_6x_o" />	
-                     <xsd:enumeration value="numeric_height_165" />	
-                     <xsd:enumeration value="2x_s" />	
-                     <xsd:enumeration value="5_l" />	
-                     <xsd:enumeration value="3_months" />	
-                     <xsd:enumeration value="5x" />	
-                     <xsd:enumeration value="go_49" />	
-                     <xsd:enumeration value="go_48" />	
-                     <xsd:enumeration value="go_47" />	
-                     <xsd:enumeration value="go_46" />	
-                     <xsd:enumeration value="go_45" />	
-                     <xsd:enumeration value="go_44" />	
-                     <xsd:enumeration value="go_43" />	
-                     <xsd:enumeration value="go_42" />	
-                     <xsd:enumeration value="newborn" />	
-                     <xsd:enumeration value="go_41" />	
-                     <xsd:enumeration value="jaspo_6x_s" />	
-                     <xsd:enumeration value="go_40" />	
-                     <xsd:enumeration value="numeric_height_160" />	
-                     <xsd:enumeration value="micro" />	
-                     <xsd:enumeration value="jaspo_6x_ot" />	
-                     <xsd:enumeration value="17_years" />	
-                     <xsd:enumeration value="jaspo_10x_ot" />	
-                     <xsd:enumeration value="go_19" />	
-                     <xsd:enumeration value="numeric_height_155" />	
-                     <xsd:enumeration value="go_18" />	
-                     <xsd:enumeration value="10_months" />	
-                     <xsd:enumeration value="6x" />	
-                     <xsd:enumeration value="go_17" />	
-                     <xsd:enumeration value="go_16" />	
-                     <xsd:enumeration value="go_15" />	
-                     <xsd:enumeration value="12_months" />	
-                     <xsd:enumeration value="numeric_height_75" />	
-                     <xsd:enumeration value="go_14" />	
-                     <xsd:enumeration value="go_13" />	
-                     <xsd:enumeration value="go_12" />	
-                     <xsd:enumeration value="6_years" />	
-                     <xsd:enumeration value="go_11" />	
-                     <xsd:enumeration value="go_10" />	
-                     <xsd:enumeration value="numeric_height_150" />	
-                     <xsd:enumeration value="18_months" />	
-                     <xsd:enumeration value="16_months" />	
-                     <xsd:enumeration value="14_months" />	
-                     <xsd:enumeration value="2_months" />	
-                     <xsd:enumeration value="numeric_height_80" />	
-                     <xsd:enumeration value="7x" />	
-                     <xsd:enumeration value="4_l" />	
-                     <xsd:enumeration value="go_29" />	
-                     <xsd:enumeration value="numeric_height_85" />	
-                     <xsd:enumeration value="go_28" />	
-                     <xsd:enumeration value="6_months" />	
-                     <xsd:enumeration value="4_months" />	
-                     <xsd:enumeration value="go_27" />	
-                     <xsd:enumeration value="go_26" />	
-                     <xsd:enumeration value="jaspo_3x_ot" />	
-                     <xsd:enumeration value="go_25" />	
-                     <xsd:enumeration value="numeric_height_145" />	
-                     <xsd:enumeration value="go_24" />	
-                     <xsd:enumeration value="go_23" />	
-                     <xsd:enumeration value="jaspo_o" />	
-                     <xsd:enumeration value="go_22" />	
-                     <xsd:enumeration value="go_21" />	
-                     <xsd:enumeration value="jaspo_m" />	
-                     <xsd:enumeration value="go_20" />	
-                     <xsd:enumeration value="jaspo_l" />	
-                     <xsd:enumeration value="10x_l" />	
-                     <xsd:enumeration value="jaspo_s" />	
-                     <xsd:enumeration value="numeric_height_140" />	
-                     <xsd:enumeration value="8x_l" />	
-                     <xsd:enumeration value="numeric_height_90" />	
-                     <xsd:enumeration value="8x" />	
-                     <xsd:enumeration value="numeric_height_50" />	
-                     <xsd:enumeration value="3x_s" />	
-                     <xsd:enumeration value="jaspo_5x_o" />	
-                     <xsd:enumeration value="numeric_height_130" />	
-                     <xsd:enumeration value="15_years" />	
-                     <xsd:enumeration value="jaspo_10x_o" />	
-                     <xsd:enumeration value="numeric_height_55" />	
-                     <xsd:enumeration value="numeric_height_135" />	
-                     <xsd:enumeration value="23_months" />	
-                     <xsd:enumeration value="3x_l" />	
-                     <xsd:enumeration value="jaspo_5x_s" />	
-                     <xsd:enumeration value="numeric_1" />	
-                     <xsd:enumeration value="numeric_0" />	
-                     <xsd:enumeration value="l_l" />	
-                     <xsd:enumeration value="s_s_s" />	
-                     <xsd:enumeration value="9x" />	
-                     <xsd:enumeration value="3_l" />	
-                     <xsd:enumeration value="numeric_height_60" />	
-                     <xsd:enumeration value="one_size" />	
-                     <xsd:enumeration value="numeric_height_120" />	
-                     <xsd:enumeration value="numeric_height_65" />	
-                     <xsd:enumeration value="numeric_height_125" />	
-                     <xsd:enumeration value="14_years" />	
-                     <xsd:enumeration value="jaspo_7x_ot" />	
-                     <xsd:enumeration value="numeric_00" />	
-                     <xsd:enumeration value="numeric_height_70" />	
-                     <xsd:enumeration value="numeric_height_110" />	
-                     <xsd:enumeration value="numeric_height_115" />	
-                     <xsd:enumeration value="10_years" />	
-                     <xsd:enumeration value="numeric_18" />	
-                     <xsd:enumeration value="numeric_17" />	
-                     <xsd:enumeration value="numeric_19" />	
-                     <xsd:enumeration value="13_years" />	
-                     <xsd:enumeration value="9x_l" />	
-                     <xsd:enumeration value="numeric_10" />	
-                     <xsd:enumeration value="numeric_12" />	
-                     <xsd:enumeration value="numeric_11" />	
-                     <xsd:enumeration value="numeric_14" />	
-                     <xsd:enumeration value="numeric_13" />	
-                     <xsd:enumeration value="numeric_16" />	
-                     <xsd:enumeration value="numeric_100" />	
-                     <xsd:enumeration value="numeric_15" />	
-                     <xsd:enumeration value="2_l" />	
-                     <xsd:enumeration value="4x_s" />	
-                     <xsd:enumeration value="numeric_height_100" />	
-                     <xsd:enumeration value="jaspo_x_ot" />	
-                     <xsd:enumeration value="7_years" />	
-                     <xsd:enumeration value="4x_l" />	
-                     <xsd:enumeration value="numeric_3" />	
-                     <xsd:enumeration value="numeric_2" />	
-                     <xsd:enumeration value="numeric_5" />	
-                     <xsd:enumeration value="jaspo_4x_s" />	
-                     <xsd:enumeration value="numeric_4" />	
-                     <xsd:enumeration value="numeric_7" />	
-                     <xsd:enumeration value="numeric_6" />	
-                     <xsd:enumeration value="numeric_9" />	
-                     <xsd:enumeration value="jaspo_4x_o" />	
-                     <xsd:enumeration value="numeric_8" />	
-                     <xsd:enumeration value="numeric_29" />	
-                     <xsd:enumeration value="numeric_28" />	
-                     <xsd:enumeration value="4_years" />	
-                     <xsd:enumeration value="jaspo_9x_ot" />	
-                     <xsd:enumeration value="numeric_21" />	
-                     <xsd:enumeration value="numeric_20" />	
-                     <xsd:enumeration value="numeric_23" />	
-                     <xsd:enumeration value="numeric_height_105" />	
-                     <xsd:enumeration value="numeric_22" />	
-                     <xsd:enumeration value="numeric_25" />	
-                     <xsd:enumeration value="numeric_24" />	
-                     <xsd:enumeration value="numeric_27" />	
-                     <xsd:enumeration value="numeric_26" />	
-                     <xsd:enumeration value="numeric_113" />	
-                     <xsd:enumeration value="numeric_112" />	
-                     <xsd:enumeration value="numeric_115" />	
-                     <xsd:enumeration value="numeric_114" />	
-                     <xsd:enumeration value="numeric_height_95" />	
-                     <xsd:enumeration value="numeric_117" />	
-                     <xsd:enumeration value="numeric_116" />	
-                     <xsd:enumeration value="numeric_30" />	
-                     <xsd:enumeration value="numeric_119" />	
-                     <xsd:enumeration value="numeric_118" />	
-                     <xsd:enumeration value="22_months" />	
-                     <xsd:enumeration value="jaspo_9x_o" />	
-                     <xsd:enumeration value="jaspo_4x_ot" />	
-                     <xsd:enumeration value="numeric_39" />	
-                     <xsd:enumeration value="5_years" />	
-                     <xsd:enumeration value="numeric_32" />	
-                     <xsd:enumeration value="numeric_31" />	
-                     <xsd:enumeration value="numeric_34" />	
-                     <xsd:enumeration value="numeric_33" />	
-                     <xsd:enumeration value="7_months" />	
-                     <xsd:enumeration value="numeric_36" />	
-                     <xsd:enumeration value="numeric_120" />	
-                     <xsd:enumeration value="numeric_35" />	
-                     <xsd:enumeration value="free_size" />	
-                     <xsd:enumeration value="numeric_38" />	
-                     <xsd:enumeration value="numeric_122" />	
-                     <xsd:enumeration value="numeric_37" />	
-                     <xsd:enumeration value="numeric_121" />	
-                     <xsd:enumeration value="numeric_102" />	
-                     <xsd:enumeration value="numeric_101" />	
-                     <xsd:enumeration value="numeric_104" />	
-                     <xsd:enumeration value="numeric_103" />	
-                     <xsd:enumeration value="numeric_106" />	
-                     <xsd:enumeration value="numeric_105" />	
-                     <xsd:enumeration value="preemie" />	
-                     <xsd:enumeration value="numeric_41" />	
-                     <xsd:enumeration value="numeric_108" />	
-                     <xsd:enumeration value="9_l" />	
-                     <xsd:enumeration value="numeric_40" />	
-                     <xsd:enumeration value="numeric_107" />	
-                     <xsd:enumeration value="11_years" />	
-                     <xsd:enumeration value="numeric_109" />	
-                     <xsd:enumeration value="numeric_43" />	
-                     <xsd:enumeration value="numeric_42" />	
-                     <xsd:enumeration value="numeric_45" />	
-                     <xsd:enumeration value="numeric_44" />	
-                     <xsd:enumeration value="numeric_47" />	
-                     <xsd:enumeration value="numeric_46" />	
-                     <xsd:enumeration value="numeric_49" />	
-                     <xsd:enumeration value="numeric_111" />	
-                     <xsd:enumeration value="numeric_48" />	
-                     <xsd:enumeration value="numeric_110" />	
-                     <xsd:enumeration value="jaspo_s_s" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+                     <xsd:enumeration value="as6" />
+					<!-- The below value is only applicable for UK -->
+                     <xsd:enumeration value="as8" />
+					 <!-- The below value is only applicable for US,CA,MX and AU -->
+                     <xsd:enumeration value="as1" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+            <xsd:element name="ShirtSizeTo" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="numeric_134" />
+                     <xsd:enumeration value="11_months" />
+                     <xsd:enumeration value="numeric_50" />
+                     <xsd:enumeration value="egg" />
+                     <xsd:enumeration value="13_months" />
+                     <xsd:enumeration value="numeric_52" />
+                     <xsd:enumeration value="numeric_51" />
+                     <xsd:enumeration value="jaspo_3x_s" />
+                     <xsd:enumeration value="5x_l" />
+                     <xsd:enumeration value="jaspo_3x_o" />
+                     <xsd:enumeration value="5x_s" />
+                     <xsd:enumeration value="17_months" />
+                     <xsd:enumeration value="19_months" />
+                     <xsd:enumeration value="numeric_54" />
+                     <xsd:enumeration value="3_years" />
+                     <xsd:enumeration value="numeric_53" />
+                     <xsd:enumeration value="15_months" />
+                     <xsd:enumeration value="numeric_56" />
+                     <xsd:enumeration value="numeric_140" />
+                     <xsd:enumeration value="numeric_55" />
+                     <xsd:enumeration value="numeric_58" />
+                     <xsd:enumeration value="numeric_57" />
+                     <xsd:enumeration value="numeric_59" />
+                     <xsd:enumeration value="numeric_124" />
+                     <xsd:enumeration value="numeric_123" />
+                     <xsd:enumeration value="numeric_126" />
+                     <xsd:enumeration value="numeric_125" />
+                     <xsd:enumeration value="jaspo_8x_o" />
+                     <xsd:enumeration value="numeric_128" />
+                     <xsd:enumeration value="numeric_61" />
+                     <xsd:enumeration value="jaspo_8x_ot" />
+                     <xsd:enumeration value="numeric_60" />
+                     <xsd:enumeration value="numeric_127" />
+                     <xsd:enumeration value="8_l" />
+                     <xsd:enumeration value="numeric_63" />
+                     <xsd:enumeration value="numeric_62" />
+                     <xsd:enumeration value="numeric_129" />
+                     <xsd:enumeration value="jaspo_x_s" />
+                     <xsd:enumeration value="numeric_65" />
+                     <xsd:enumeration value="jaspo_x_o" />
+                     <xsd:enumeration value="numeric_64" />
+                     <xsd:enumeration value="10x" />
+                     <xsd:enumeration value="numeric_67" />
+                     <xsd:enumeration value="numeric_66" />
+                     <xsd:enumeration value="numeric_69" />
+                     <xsd:enumeration value="numeric_68" />
+                     <xsd:enumeration value="numeric_130" />
+                     <xsd:enumeration value="12_years" />
+                     <xsd:enumeration value="numeric_70" />
+                     <xsd:enumeration value="20_months" />
+                     <xsd:enumeration value="numeric_158" />
+                     <xsd:enumeration value="numeric_72" />
+                     <xsd:enumeration value="numeric_71" />
+                     <xsd:enumeration value="numeric_74" />
+                     <xsd:enumeration value="numeric_73" />
+                     <xsd:enumeration value="jaspo_5x_ot" />
+                     <xsd:enumeration value="0x" />
+                     <xsd:enumeration value="24_months" />
+                     <xsd:enumeration value="teeny" />
+                     <xsd:enumeration value="numeric_76" />
+                     <xsd:enumeration value="numeric_160" />
+                     <xsd:enumeration value="numeric_75" />
+                     <xsd:enumeration value="9_months" />
+                     <xsd:enumeration value="numeric_78" />
+                     <xsd:enumeration value="numeric_77" />
+                     <xsd:enumeration value="10_l" />
+                     <xsd:enumeration value="numeric_164" />
+                     <xsd:enumeration value="numeric_79" />
+                     <xsd:enumeration value="8_years" />
+                     <xsd:enumeration value="numeric_146" />
+                     <xsd:enumeration value="ss" />
+                     <xsd:enumeration value="numeric_81" />
+                     <xsd:enumeration value="numeric_80" />
+                     <xsd:enumeration value="5_months" />
+                     <xsd:enumeration value="x_l" />
+                     <xsd:enumeration value="numeric_83" />
+                     <xsd:enumeration value="7_l" />
+                     <xsd:enumeration value="2_years" />
+                     <xsd:enumeration value="numeric_82" />
+                     <xsd:enumeration value="numeric_85" />
+                     <xsd:enumeration value="1x" />
+                     <xsd:enumeration value="numeric_84" />
+                     <xsd:enumeration value="9_years" />
+                     <xsd:enumeration value="jaspo_2x_s" />
+                     <xsd:enumeration value="6x_s" />
+                     <xsd:enumeration value="l" />
+                     <xsd:enumeration value="x_s" />
+                     <xsd:enumeration value="m" />
+                     <xsd:enumeration value="jaspo_2x_o" />
+                     <xsd:enumeration value="s" />
+                     <xsd:enumeration value="6x_l" />
+                     <xsd:enumeration value="numeric_87" />
+                     <xsd:enumeration value="numeric_86" />
+                     <xsd:enumeration value="numeric_89" />
+                     <xsd:enumeration value="numeric_150" />
+                     <xsd:enumeration value="numeric_88" />
+                     <xsd:enumeration value="numeric_152" />
+                     <xsd:enumeration value="numeric_90" />
+                     <xsd:enumeration value="numeric_92" />
+                     <xsd:enumeration value="jaspo_7x_o" />
+                     <xsd:enumeration value="numeric_91" />
+                     <xsd:enumeration value="numeric_94" />
+                     <xsd:enumeration value="numeric_93" />
+                     <xsd:enumeration value="2x" />
+                     <xsd:enumeration value="numeric_96" />
+                     <xsd:enumeration value="numeric_95" />
+                     <xsd:enumeration value="numeric_height_190" />
+                     <xsd:enumeration value="go_50" />
+                     <xsd:enumeration value="go_7" />
+                     <xsd:enumeration value="go_8" />
+                     <xsd:enumeration value="go_9" />
+                     <xsd:enumeration value="1_month" />
+                     <xsd:enumeration value="numeric_182" />
+                     <xsd:enumeration value="numeric_98" />
+                     <xsd:enumeration value="numeric_97" />
+                     <xsd:enumeration value="1_year" />
+                     <xsd:enumeration value="numeric_99" />
+                     <xsd:enumeration value="jaspo_ot" />
+                     <xsd:enumeration value="numeric_188" />
+                     <xsd:enumeration value="16_years" />
+                     <xsd:enumeration value="eg" />
+                     <xsd:enumeration value="numeric_height_185" />
+                     <xsd:enumeration value="6_l" />
+                     <xsd:enumeration value="3x" />
+                     <xsd:enumeration value="em" />
+                     <xsd:enumeration value="numeric_height_180" />
+                     <xsd:enumeration value="go_0" />
+                     <xsd:enumeration value="jaspo_2x_ot" />
+                     <xsd:enumeration value="go_1" />
+                     <xsd:enumeration value="ep" />
+                     <xsd:enumeration value="go_2" />
+                     <xsd:enumeration value="go_3" />
+                     <xsd:enumeration value="go_4" />
+                     <xsd:enumeration value="go_5" />
+                     <xsd:enumeration value="go_6" />
+                     <xsd:enumeration value="numeric_170" />
+                     <xsd:enumeration value="numeric_176" />
+                     <xsd:enumeration value="go_39" />
+                     <xsd:enumeration value="numeric_height_175" />
+                     <xsd:enumeration value="go_38" />
+                     <xsd:enumeration value="21_months" />
+                     <xsd:enumeration value="4x" />
+                     <xsd:enumeration value="go_37" />
+                     <xsd:enumeration value="go_36" />
+                     <xsd:enumeration value="go_35" />
+                     <xsd:enumeration value="go_34" />
+                     <xsd:enumeration value="go_33" />
+                     <xsd:enumeration value="go_32" />
+                     <xsd:enumeration value="0_month" />
+                     <xsd:enumeration value="go_31" />
+                     <xsd:enumeration value="go_30" />
+                     <xsd:enumeration value="xx_s" />
+                     <xsd:enumeration value="numeric_height_170" />
+                     <xsd:enumeration value="7x_l" />
+                     <xsd:enumeration value="xx_l" />
+                     <xsd:enumeration value="18_years" />
+                     <xsd:enumeration value="8_months" />
+                     <xsd:enumeration value="jaspo_6x_o" />
+                     <xsd:enumeration value="numeric_height_165" />
+                     <xsd:enumeration value="2x_s" />
+                     <xsd:enumeration value="5_l" />
+                     <xsd:enumeration value="3_months" />
+                     <xsd:enumeration value="5x" />
+                     <xsd:enumeration value="go_49" />
+                     <xsd:enumeration value="go_48" />
+                     <xsd:enumeration value="go_47" />
+                     <xsd:enumeration value="go_46" />
+                     <xsd:enumeration value="go_45" />
+                     <xsd:enumeration value="go_44" />
+                     <xsd:enumeration value="go_43" />
+                     <xsd:enumeration value="go_42" />
+                     <xsd:enumeration value="newborn" />
+                     <xsd:enumeration value="go_41" />
+                     <xsd:enumeration value="jaspo_6x_s" />
+                     <xsd:enumeration value="go_40" />
+                     <xsd:enumeration value="numeric_height_160" />
+                     <xsd:enumeration value="micro" />
+                     <xsd:enumeration value="jaspo_6x_ot" />
+                     <xsd:enumeration value="17_years" />
+                     <xsd:enumeration value="jaspo_10x_ot" />
+                     <xsd:enumeration value="go_19" />
+                     <xsd:enumeration value="numeric_height_155" />
+                     <xsd:enumeration value="go_18" />
+                     <xsd:enumeration value="10_months" />
+                     <xsd:enumeration value="6x" />
+                     <xsd:enumeration value="go_17" />
+                     <xsd:enumeration value="go_16" />
+                     <xsd:enumeration value="go_15" />
+                     <xsd:enumeration value="12_months" />
+                     <xsd:enumeration value="numeric_height_75" />
+                     <xsd:enumeration value="go_14" />
+                     <xsd:enumeration value="go_13" />
+                     <xsd:enumeration value="go_12" />
+                     <xsd:enumeration value="6_years" />
+                     <xsd:enumeration value="go_11" />
+                     <xsd:enumeration value="go_10" />
+                     <xsd:enumeration value="numeric_height_150" />
+                     <xsd:enumeration value="18_months" />
+                     <xsd:enumeration value="16_months" />
+                     <xsd:enumeration value="14_months" />
+                     <xsd:enumeration value="2_months" />
+                     <xsd:enumeration value="numeric_height_80" />
+                     <xsd:enumeration value="7x" />
+                     <xsd:enumeration value="4_l" />
+                     <xsd:enumeration value="go_29" />
+                     <xsd:enumeration value="numeric_height_85" />
+                     <xsd:enumeration value="go_28" />
+                     <xsd:enumeration value="6_months" />
+                     <xsd:enumeration value="4_months" />
+                     <xsd:enumeration value="go_27" />
+                     <xsd:enumeration value="go_26" />
+                     <xsd:enumeration value="jaspo_3x_ot" />
+                     <xsd:enumeration value="go_25" />
+                     <xsd:enumeration value="numeric_height_145" />
+                     <xsd:enumeration value="go_24" />
+                     <xsd:enumeration value="go_23" />
+                     <xsd:enumeration value="jaspo_o" />
+                     <xsd:enumeration value="go_22" />
+                     <xsd:enumeration value="go_21" />
+                     <xsd:enumeration value="jaspo_m" />
+                     <xsd:enumeration value="go_20" />
+                     <xsd:enumeration value="jaspo_l" />
+                     <xsd:enumeration value="10x_l" />
+                     <xsd:enumeration value="jaspo_s" />
+                     <xsd:enumeration value="numeric_height_140" />
+                     <xsd:enumeration value="8x_l" />
+                     <xsd:enumeration value="numeric_height_90" />
+                     <xsd:enumeration value="8x" />
+                     <xsd:enumeration value="numeric_height_50" />
+                     <xsd:enumeration value="3x_s" />
+                     <xsd:enumeration value="jaspo_5x_o" />
+                     <xsd:enumeration value="numeric_height_130" />
+                     <xsd:enumeration value="15_years" />
+                     <xsd:enumeration value="jaspo_10x_o" />
+                     <xsd:enumeration value="numeric_height_55" />
+                     <xsd:enumeration value="numeric_height_135" />
+                     <xsd:enumeration value="23_months" />
+                     <xsd:enumeration value="3x_l" />
+                     <xsd:enumeration value="jaspo_5x_s" />
+                     <xsd:enumeration value="numeric_1" />
+                     <xsd:enumeration value="numeric_0" />
+                     <xsd:enumeration value="l_l" />
+                     <xsd:enumeration value="s_s_s" />
+                     <xsd:enumeration value="9x" />
+                     <xsd:enumeration value="3_l" />
+                     <xsd:enumeration value="numeric_height_60" />
+                     <xsd:enumeration value="one_size" />
+                     <xsd:enumeration value="numeric_height_120" />
+                     <xsd:enumeration value="numeric_height_65" />
+                     <xsd:enumeration value="numeric_height_125" />
+                     <xsd:enumeration value="14_years" />
+                     <xsd:enumeration value="jaspo_7x_ot" />
+                     <xsd:enumeration value="numeric_00" />
+                     <xsd:enumeration value="numeric_height_70" />
+                     <xsd:enumeration value="numeric_height_110" />
+                     <xsd:enumeration value="numeric_height_115" />
+                     <xsd:enumeration value="10_years" />
+                     <xsd:enumeration value="numeric_18" />
+                     <xsd:enumeration value="numeric_17" />
+                     <xsd:enumeration value="numeric_19" />
+                     <xsd:enumeration value="13_years" />
+                     <xsd:enumeration value="9x_l" />
+                     <xsd:enumeration value="numeric_10" />
+                     <xsd:enumeration value="numeric_12" />
+                     <xsd:enumeration value="numeric_11" />
+                     <xsd:enumeration value="numeric_14" />
+                     <xsd:enumeration value="numeric_13" />
+                     <xsd:enumeration value="numeric_16" />
+                     <xsd:enumeration value="numeric_100" />
+                     <xsd:enumeration value="numeric_15" />
+                     <xsd:enumeration value="2_l" />
+                     <xsd:enumeration value="4x_s" />
+                     <xsd:enumeration value="numeric_height_100" />
+                     <xsd:enumeration value="jaspo_x_ot" />
+                     <xsd:enumeration value="7_years" />
+                     <xsd:enumeration value="4x_l" />
+                     <xsd:enumeration value="numeric_3" />
+                     <xsd:enumeration value="numeric_2" />
+                     <xsd:enumeration value="numeric_5" />
+                     <xsd:enumeration value="jaspo_4x_s" />
+                     <xsd:enumeration value="numeric_4" />
+                     <xsd:enumeration value="numeric_7" />
+                     <xsd:enumeration value="numeric_6" />
+                     <xsd:enumeration value="numeric_9" />
+                     <xsd:enumeration value="jaspo_4x_o" />
+                     <xsd:enumeration value="numeric_8" />
+                     <xsd:enumeration value="numeric_29" />
+                     <xsd:enumeration value="numeric_28" />
+                     <xsd:enumeration value="4_years" />
+                     <xsd:enumeration value="jaspo_9x_ot" />
+                     <xsd:enumeration value="numeric_21" />
+                     <xsd:enumeration value="numeric_20" />
+                     <xsd:enumeration value="numeric_23" />
+                     <xsd:enumeration value="numeric_height_105" />
+                     <xsd:enumeration value="numeric_22" />
+                     <xsd:enumeration value="numeric_25" />
+                     <xsd:enumeration value="numeric_24" />
+                     <xsd:enumeration value="numeric_27" />
+                     <xsd:enumeration value="numeric_26" />
+                     <xsd:enumeration value="numeric_113" />
+                     <xsd:enumeration value="numeric_112" />
+                     <xsd:enumeration value="numeric_115" />
+                     <xsd:enumeration value="numeric_114" />
+                     <xsd:enumeration value="numeric_height_95" />
+                     <xsd:enumeration value="numeric_117" />
+                     <xsd:enumeration value="numeric_116" />
+                     <xsd:enumeration value="numeric_30" />
+                     <xsd:enumeration value="numeric_119" />
+                     <xsd:enumeration value="numeric_118" />
+                     <xsd:enumeration value="22_months" />
+                     <xsd:enumeration value="jaspo_9x_o" />
+                     <xsd:enumeration value="jaspo_4x_ot" />
+                     <xsd:enumeration value="numeric_39" />
+                     <xsd:enumeration value="5_years" />
+                     <xsd:enumeration value="numeric_32" />
+                     <xsd:enumeration value="numeric_31" />
+                     <xsd:enumeration value="numeric_34" />
+                     <xsd:enumeration value="numeric_33" />
+                     <xsd:enumeration value="7_months" />
+                     <xsd:enumeration value="numeric_36" />
+                     <xsd:enumeration value="numeric_120" />
+                     <xsd:enumeration value="numeric_35" />
+                     <xsd:enumeration value="free_size" />
+                     <xsd:enumeration value="numeric_38" />
+                     <xsd:enumeration value="numeric_122" />
+                     <xsd:enumeration value="numeric_37" />
+                     <xsd:enumeration value="numeric_121" />
+                     <xsd:enumeration value="numeric_102" />
+                     <xsd:enumeration value="numeric_101" />
+                     <xsd:enumeration value="numeric_104" />
+                     <xsd:enumeration value="numeric_103" />
+                     <xsd:enumeration value="numeric_106" />
+                     <xsd:enumeration value="numeric_105" />
+                     <xsd:enumeration value="preemie" />
+                     <xsd:enumeration value="numeric_41" />
+                     <xsd:enumeration value="numeric_108" />
+                     <xsd:enumeration value="9_l" />
+                     <xsd:enumeration value="numeric_40" />
+                     <xsd:enumeration value="numeric_107" />
+                     <xsd:enumeration value="11_years" />
+                     <xsd:enumeration value="numeric_109" />
+                     <xsd:enumeration value="numeric_43" />
+                     <xsd:enumeration value="numeric_42" />
+                     <xsd:enumeration value="numeric_45" />
+                     <xsd:enumeration value="numeric_44" />
+                     <xsd:enumeration value="numeric_47" />
+                     <xsd:enumeration value="numeric_46" />
+                     <xsd:enumeration value="numeric_49" />
+                     <xsd:enumeration value="numeric_111" />
+                     <xsd:enumeration value="numeric_48" />
+                     <xsd:enumeration value="numeric_110" />
+                     <xsd:enumeration value="jaspo_s_s" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			 <!--Fill only when ShirtSleeveLength is selected as neck_sleeve
-                --> 
-			
-            <xsd:element name="ShirtSleeveLength" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="88" />	
-                     <xsd:enumeration value="89" />	
-                     <xsd:enumeration value="110" />	
-                     <xsd:enumeration value="90" />	
-                     <xsd:enumeration value="91" />	
-                     <xsd:enumeration value="92" />	
-                     <xsd:enumeration value="93" />	
-                     <xsd:enumeration value="94" />	
-                     <xsd:enumeration value="50" />	
-                     <xsd:enumeration value="95" />	
-                     <xsd:enumeration value="51" />	
-                     <xsd:enumeration value="96" />	
-                     <xsd:enumeration value="52" />	
-                     <xsd:enumeration value="97" />	
-                     <xsd:enumeration value="53" />	
-                     <xsd:enumeration value="98" />	
-                     <xsd:enumeration value="54" />	
-                     <xsd:enumeration value="99" />	
-                     <xsd:enumeration value="55" />	
-                     <xsd:enumeration value="56" />	
-                     <xsd:enumeration value="57" />	
-                     <xsd:enumeration value="58" />	
-                     <xsd:enumeration value="59" />	
-                     <xsd:enumeration value="60" />	
-                     <xsd:enumeration value="61" />	
-                     <xsd:enumeration value="62" />	
-                     <xsd:enumeration value="63" />	
-                     <xsd:enumeration value="20" />	
-                     <xsd:enumeration value="64" />	
-                     <xsd:enumeration value="21" />	
-                     <xsd:enumeration value="65" />	
-                     <xsd:enumeration value="66" />	
-                     <xsd:enumeration value="22" />	
-                     <xsd:enumeration value="67" />	
-                     <xsd:enumeration value="23" />	
-                     <xsd:enumeration value="68" />	
-                     <xsd:enumeration value="24" />	
-                     <xsd:enumeration value="69" />	
-                     <xsd:enumeration value="25" />	
-                     <xsd:enumeration value="26" />	
-                     <xsd:enumeration value="27" />	
-                     <xsd:enumeration value="28" />	
-                     <xsd:enumeration value="29" />	
-                     <xsd:enumeration value="70" />	
-                     <xsd:enumeration value="71" />	
-                     <xsd:enumeration value="72" />	
-                     <xsd:enumeration value="73" />	
-                     <xsd:enumeration value="74" />	
-                     <xsd:enumeration value="30" />	
-                     <xsd:enumeration value="75" />	
-                     <xsd:enumeration value="31" />	
-                     <xsd:enumeration value="76" />	
-                     <xsd:enumeration value="32" />	
-                     <xsd:enumeration value="77" />	
-                     <xsd:enumeration value="33" />	
-                     <xsd:enumeration value="78" />	
-                     <xsd:enumeration value="34" />	
-                     <xsd:enumeration value="79" />	
-                     <xsd:enumeration value="35" />	
-                     <xsd:enumeration value="36" />	
-                     <xsd:enumeration value="37" />	
-                     <xsd:enumeration value="38" />	
-                     <xsd:enumeration value="39" />	
-                     <xsd:enumeration value="100" />	
-                     <xsd:enumeration value="101" />	
-                     <xsd:enumeration value="102" />	
-                     <xsd:enumeration value="103" />	
-                     <xsd:enumeration value="104" />	
-                     <xsd:enumeration value="105" />	
-                     <xsd:enumeration value="106" />	
-                     <xsd:enumeration value="80" />	
-                     <xsd:enumeration value="107" />	
-                     <xsd:enumeration value="81" />	
-                     <xsd:enumeration value="108" />	
-                     <xsd:enumeration value="82" />	
-                     <xsd:enumeration value="109" />	
-                     <xsd:enumeration value="83" />	
-                     <xsd:enumeration value="84" />	
-                     <xsd:enumeration value="40" />	
-                     <xsd:enumeration value="85" />	
-                     <xsd:enumeration value="41" />	
-                     <xsd:enumeration value="86" />	
-                     <xsd:enumeration value="42" />	
-                     <xsd:enumeration value="87" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
-            </xsd:element>	
-			
+                -->
+
+            <xsd:element name="ShirtSleeveLength" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="88" />
+                     <xsd:enumeration value="89" />
+                     <xsd:enumeration value="110" />
+                     <xsd:enumeration value="90" />
+                     <xsd:enumeration value="91" />
+                     <xsd:enumeration value="92" />
+                     <xsd:enumeration value="93" />
+                     <xsd:enumeration value="94" />
+                     <xsd:enumeration value="50" />
+                     <xsd:enumeration value="95" />
+                     <xsd:enumeration value="51" />
+                     <xsd:enumeration value="96" />
+                     <xsd:enumeration value="52" />
+                     <xsd:enumeration value="97" />
+                     <xsd:enumeration value="53" />
+                     <xsd:enumeration value="98" />
+                     <xsd:enumeration value="54" />
+                     <xsd:enumeration value="99" />
+                     <xsd:enumeration value="55" />
+                     <xsd:enumeration value="56" />
+                     <xsd:enumeration value="57" />
+                     <xsd:enumeration value="58" />
+                     <xsd:enumeration value="59" />
+                     <xsd:enumeration value="60" />
+                     <xsd:enumeration value="61" />
+                     <xsd:enumeration value="62" />
+                     <xsd:enumeration value="63" />
+                     <xsd:enumeration value="20" />
+                     <xsd:enumeration value="64" />
+                     <xsd:enumeration value="21" />
+                     <xsd:enumeration value="65" />
+                     <xsd:enumeration value="66" />
+                     <xsd:enumeration value="22" />
+                     <xsd:enumeration value="67" />
+                     <xsd:enumeration value="23" />
+                     <xsd:enumeration value="68" />
+                     <xsd:enumeration value="24" />
+                     <xsd:enumeration value="69" />
+                     <xsd:enumeration value="25" />
+                     <xsd:enumeration value="26" />
+                     <xsd:enumeration value="27" />
+                     <xsd:enumeration value="28" />
+                     <xsd:enumeration value="29" />
+                     <xsd:enumeration value="70" />
+                     <xsd:enumeration value="71" />
+                     <xsd:enumeration value="72" />
+                     <xsd:enumeration value="73" />
+                     <xsd:enumeration value="74" />
+                     <xsd:enumeration value="30" />
+                     <xsd:enumeration value="75" />
+                     <xsd:enumeration value="31" />
+                     <xsd:enumeration value="76" />
+                     <xsd:enumeration value="32" />
+                     <xsd:enumeration value="77" />
+                     <xsd:enumeration value="33" />
+                     <xsd:enumeration value="78" />
+                     <xsd:enumeration value="34" />
+                     <xsd:enumeration value="79" />
+                     <xsd:enumeration value="35" />
+                     <xsd:enumeration value="36" />
+                     <xsd:enumeration value="37" />
+                     <xsd:enumeration value="38" />
+                     <xsd:enumeration value="39" />
+                     <xsd:enumeration value="100" />
+                     <xsd:enumeration value="101" />
+                     <xsd:enumeration value="102" />
+                     <xsd:enumeration value="103" />
+                     <xsd:enumeration value="104" />
+                     <xsd:enumeration value="105" />
+                     <xsd:enumeration value="106" />
+                     <xsd:enumeration value="80" />
+                     <xsd:enumeration value="107" />
+                     <xsd:enumeration value="81" />
+                     <xsd:enumeration value="108" />
+                     <xsd:enumeration value="82" />
+                     <xsd:enumeration value="109" />
+                     <xsd:enumeration value="83" />
+                     <xsd:enumeration value="84" />
+                     <xsd:enumeration value="40" />
+                     <xsd:enumeration value="85" />
+                     <xsd:enumeration value="41" />
+                     <xsd:enumeration value="86" />
+                     <xsd:enumeration value="42" />
+                     <xsd:enumeration value="87" />
+                  </xsd:restriction>
+               </xsd:simpleType>
+            </xsd:element>
+
 			<!--Fill only when ShirtSleeveLengthTo is selected as neck_sleeve
-                --> 
-			
-            <xsd:element name="ShirtSleeveLengthTo" minOccurs="0">	
-               <xsd:simpleType>	
-                  <xsd:restriction base="xsd:string">	
-                     <xsd:enumeration value="88" />	
-                     <xsd:enumeration value="89" />	
-                     <xsd:enumeration value="90" />	
-                     <xsd:enumeration value="91" />	
-                     <xsd:enumeration value="92" />	
-                     <xsd:enumeration value="93" />	
-                     <xsd:enumeration value="94" />	
-                     <xsd:enumeration value="95" />	
-                     <xsd:enumeration value="96" />	
-                     <xsd:enumeration value="97" />	
-                     <xsd:enumeration value="98" />	
-                     <xsd:enumeration value="99" />	
-                     <xsd:enumeration value="67" />	
-                     <xsd:enumeration value="68" />	
-                     <xsd:enumeration value="69" />	
-                     <xsd:enumeration value="27" />	
-                     <xsd:enumeration value="28" />	
-                     <xsd:enumeration value="29" />	
-                     <xsd:enumeration value="70" />	
-                     <xsd:enumeration value="71" />	
-                     <xsd:enumeration value="72" />	
-                     <xsd:enumeration value="73" />	
-                     <xsd:enumeration value="74" />	
-                     <xsd:enumeration value="30" />	
-                     <xsd:enumeration value="75" />	
-                     <xsd:enumeration value="31" />	
-                     <xsd:enumeration value="76" />	
-                     <xsd:enumeration value="32" />	
-                     <xsd:enumeration value="77" />	
-                     <xsd:enumeration value="33" />	
-                     <xsd:enumeration value="78" />	
-                     <xsd:enumeration value="34" />	
-                     <xsd:enumeration value="79" />	
-                     <xsd:enumeration value="35" />	
-                     <xsd:enumeration value="36" />	
-                     <xsd:enumeration value="37" />	
-                     <xsd:enumeration value="38" />	
-                     <xsd:enumeration value="39" />	
-                     <xsd:enumeration value="100" />	
-                     <xsd:enumeration value="101" />	
-                     <xsd:enumeration value="102" />	
-                     <xsd:enumeration value="103" />	
-                     <xsd:enumeration value="104" />	
-                     <xsd:enumeration value="105" />	
-                     <xsd:enumeration value="106" />	
-                     <xsd:enumeration value="80" />	
-                     <xsd:enumeration value="81" />	
-                     <xsd:enumeration value="82" />	
-                     <xsd:enumeration value="83" />	
-                     <xsd:enumeration value="84" />	
-                     <xsd:enumeration value="40" />	
-                     <xsd:enumeration value="85" />	
-                     <xsd:enumeration value="41" />	
-                     <xsd:enumeration value="86" />	
-                     <xsd:enumeration value="42" />	
-                     <xsd:enumeration value="87" />	
-                  </xsd:restriction>	
-               </xsd:simpleType>	
+                -->
+
+            <xsd:element name="ShirtSleeveLengthTo" minOccurs="0">
+               <xsd:simpleType>
+                  <xsd:restriction base="xsd:string">
+                     <xsd:enumeration value="88" />
+                     <xsd:enumeration value="89" />
+                     <xsd:enumeration value="90" />
+                     <xsd:enumeration value="91" />
+                     <xsd:enumeration value="92" />
+                     <xsd:enumeration value="93" />
+                     <xsd:enumeration value="94" />
+                     <xsd:enumeration value="95" />
+                     <xsd:enumeration value="96" />
+                     <xsd:enumeration value="97" />
+                     <xsd:enumeration value="98" />
+                     <xsd:enumeration value="99" />
+                     <xsd:enumeration value="67" />
+                     <xsd:enumeration value="68" />
+                     <xsd:enumeration value="69" />
+                     <xsd:enumeration value="27" />
+                     <xsd:enumeration value="28" />
+                     <xsd:enumeration value="29" />
+                     <xsd:enumeration value="70" />
+                     <xsd:enumeration value="71" />
+                     <xsd:enumeration value="72" />
+                     <xsd:enumeration value="73" />
+                     <xsd:enumeration value="74" />
+                     <xsd:enumeration value="30" />
+                     <xsd:enumeration value="75" />
+                     <xsd:enumeration value="31" />
+                     <xsd:enumeration value="76" />
+                     <xsd:enumeration value="32" />
+                     <xsd:enumeration value="77" />
+                     <xsd:enumeration value="33" />
+                     <xsd:enumeration value="78" />
+                     <xsd:enumeration value="34" />
+                     <xsd:enumeration value="79" />
+                     <xsd:enumeration value="35" />
+                     <xsd:enumeration value="36" />
+                     <xsd:enumeration value="37" />
+                     <xsd:enumeration value="38" />
+                     <xsd:enumeration value="39" />
+                     <xsd:enumeration value="100" />
+                     <xsd:enumeration value="101" />
+                     <xsd:enumeration value="102" />
+                     <xsd:enumeration value="103" />
+                     <xsd:enumeration value="104" />
+                     <xsd:enumeration value="105" />
+                     <xsd:enumeration value="106" />
+                     <xsd:enumeration value="80" />
+                     <xsd:enumeration value="81" />
+                     <xsd:enumeration value="82" />
+                     <xsd:enumeration value="83" />
+                     <xsd:enumeration value="84" />
+                     <xsd:enumeration value="40" />
+                     <xsd:enumeration value="85" />
+                     <xsd:enumeration value="41" />
+                     <xsd:enumeration value="86" />
+                     <xsd:enumeration value="42" />
+                     <xsd:enumeration value="87" />
+                  </xsd:restriction>
+               </xsd:simpleType>
             </xsd:element>
             <xsd:element name="PlayerName" minOccurs="0" type="StringNotNull" />
             <xsd:element name="BackStyle" minOccurs="0" type="TwoThousandString"/>
@@ -3776,17 +3776,17 @@
                             <xsd:enumeration value="as3"/>
                             <!-- The below value is only applicable for BR -->
                             <xsd:enumeration value="as2"/>
-                            <!-- The below value is only applicable for IN -->  
+                            <!-- The below value is only applicable for IN -->
                             <xsd:enumeration value="as5"/>
                             <!-- The below value is only applicable for FR,ES,AE,SA -->
                             <xsd:enumeration value="as4"/>
-                            <!-- The below value is only applicable for JP -->  
+                            <!-- The below value is only applicable for JP -->
                             <xsd:enumeration value="as7"/>
                             <!-- The below value is only applicable for IT -->
                             <xsd:enumeration value="as6"/>
-                            <!-- The below value is only applicable for UK -->  
+                            <!-- The below value is only applicable for UK -->
                             <xsd:enumeration value="as8"/>
-                            <!-- The below value is only applicable for US,CA,MX and AU -->  
+                            <!-- The below value is only applicable for US,CA,MX and AU -->
                             <xsd:enumeration value="as1"/>
                   </xsd:restriction>
                     </xsd:simpleType>
@@ -4646,17 +4646,17 @@
                             <xsd:enumeration value="as3"/>
                             <!-- The below value is only applicable for BR -->
                             <xsd:enumeration value="as2"/>
-                            <!-- The below value is only applicable for IN -->  
+                            <!-- The below value is only applicable for IN -->
                             <xsd:enumeration value="as5"/>
                             <!-- The below value is only applicable for FR,ES,AE,SA -->
                             <xsd:enumeration value="as4"/>
-                            <!-- The below value is only applicable for JP -->  
+                            <!-- The below value is only applicable for JP -->
                             <xsd:enumeration value="as7"/>
                             <!-- The below value is only applicable for IT -->
                             <xsd:enumeration value="as6"/>
-                            <!-- The below value is only applicable for UK -->  
+                            <!-- The below value is only applicable for UK -->
                             <xsd:enumeration value="as8"/>
-                            <!-- The below value is only applicable for US,CA,MX and AU -->  
+                            <!-- The below value is only applicable for US,CA,MX and AU -->
                             <xsd:enumeration value="as1"/>
                         </xsd:restriction>
                     </xsd:simpleType>
@@ -5009,7 +5009,7 @@
                 <!--Valid Values for SkirtBodyType for each marketplace are given below-
                     US CA MX: slim, husky, regular, plus, big
                     UK DE NL PL SE FR ES AE SA IT: regular, plus
-                    JP: slim, regular, husky, big, plus, j, jy, y, ya, a, ab, b, bb, be, e, a, y, ab, b, a, y, b, e 
+                    JP: slim, regular, husky, big, plus, j, jy, y, ya, a, ab, b, bb, be, e, a, y, ab, b, a, y, b, e
                     BR: regular, plus, slim
                 -->
 
@@ -5038,7 +5038,7 @@
                 <!--Valid Values for SkirtHeightType for each marketplace are given below-
                     US CA MX: petite, short, regular, long, extra long, tall, extra tall
                     UK DE NL PL SE FR ES AE SA IT: petite, short, extra short, regular, long, extra long, tall, extra tall
-                    JP: long, short, pp, p, r, t, w, y, 2, 3, 4, 5, 6, 7, 8, 9 
+                    JP: long, short, pp, p, r, t, w, y, 2, 3, 4, 5, 6, 7, 8, 9
                     BR: petite, short, regular, long
                 -->
 
@@ -5441,17 +5441,17 @@
                             <xsd:enumeration value="as3"/>
                             <!-- The below value is only applicable for BR -->
                             <xsd:enumeration value="as2"/>
-                            <!-- The below value is only applicable for IN -->  
+                            <!-- The below value is only applicable for IN -->
                             <xsd:enumeration value="as5"/>
                             <!-- The below value is only applicable for FR,ES,AE,SA -->
                             <xsd:enumeration value="as4"/>
-                            <!-- The below value is only applicable for JP -->  
+                            <!-- The below value is only applicable for JP -->
                             <xsd:enumeration value="as7"/>
                             <!-- The below value is only applicable for IT -->
                             <xsd:enumeration value="as6"/>
-                            <!-- The below value is only applicable for UK -->  
+                            <!-- The below value is only applicable for UK -->
                             <xsd:enumeration value="as8"/>
-                            <!-- The below value is only applicable for US,CA,MX and AU -->  
+                            <!-- The below value is only applicable for US,CA,MX and AU -->
                             <xsd:enumeration value="as1"/>
                         </xsd:restriction>
                     </xsd:simpleType>

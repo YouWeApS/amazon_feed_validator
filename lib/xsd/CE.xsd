@@ -1872,8 +1872,7 @@ with Amazon.com.
 				<xsd:element ref="VideoEncoding" minOccurs="0"/>
 				<xsd:element ref="ViewFinderType" minOccurs="0"/>
 				<xsd:element ref="WaterResistantLevel" minOccurs="0"/>
-				<xsd:element ref="Efficiency" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
+				<xsd:element ref="Efficiency" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -1997,8 +1996,7 @@ with Amazon.com.
 				<xsd:element ref="PhotoFilterLensSize" minOccurs="0"/>
 				<xsd:element ref="PhotoFilterThreadSize" minOccurs="0"/>
 				<xsd:element ref="WaterResistantLevel" minOccurs="0"/>
-				<xsd:element ref="Efficiency" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
+				<xsd:element ref="Efficiency" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2078,8 +2076,7 @@ with Amazon.com.
 				<xsd:element name="WirelessTechnology" type="StringNotNull" minOccurs="0"
 					maxOccurs="5"/>
 				<xsd:element ref="PowerPlugType" minOccurs="0"/>
-				<xsd:element ref="Efficiency" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
+				<xsd:element ref="Efficiency" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2099,10 +2096,7 @@ with Amazon.com.
 				<xsd:element name="VideoResolution" type="PixelDimension" minOccurs="0"/>
 				<xsd:element name="WirelessTechnology" type="StringNotNull" minOccurs="0"
 					maxOccurs="5"/>
-				<xsd:element ref="Efficiency" minOccurs="0"/>	
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
-				<xsd:element name="FrameMaterialType" type="StringNotNull" minOccurs="0"/>
-				<xsd:element name="ScannerResolution" type="StringNotNull" minOccurs="0"/>
+				<xsd:element ref="Efficiency" minOccurs="0"/>					
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2529,7 +2523,6 @@ with Amazon.com.
 				<xsd:element ref="Efficiency" minOccurs="0"/>
 				<xsd:element name="MfgWarrantyDescriptionLabor" type="SuperLongStringNotNull"
 					minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2737,7 +2730,6 @@ with Amazon.com.
 				<xsd:element ref="WooferSpeakerDiameter" minOccurs="0"/>
 				<xsd:element ref="WooferSpeakerMaterial" minOccurs="0"/>
 				<xsd:element ref="Efficiency" minOccurs="0"/>
-				<xsd:element name="Frequency" type="xsd:decimal" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2810,8 +2802,7 @@ with Amazon.com.
 				<xsd:element ref="TweeterSpeakerTechnology" minOccurs="0"/>
 				<xsd:element ref="WooferSpeakerMaterial" minOccurs="0"/>
 				<xsd:element ref="WooferSpeakerDiameter" minOccurs="0"/>
-				<xsd:element ref="Efficiency" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
+				<xsd:element ref="Efficiency" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -2897,8 +2888,7 @@ with Amazon.com.
 				<xsd:element name="SupportsBluetoothTechnology" type="xsd:boolean" minOccurs="0"/>
 				<xsd:element name="OperatingSystem" type="MediumStringNotNull" minOccurs="0" maxOccurs="5"/>
 				<xsd:element name="Format" minOccurs="0" maxOccurs="10"/>
-				<xsd:element name="ApplicationProtocol" type="StringNotNull" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
+				<xsd:element name="ApplicationProtocol" type="StringNotNull" minOccurs="0"/>				
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -3277,15 +3267,7 @@ with Amazon.com.
 				<xsd:element name="RAMSize" type="MemorySizeDimension" minOccurs="0"/>
 				<xsd:element name="ProcessorBrand" type="FortyStringNotNull" minOccurs="0"/>
 				<xsd:element name="ProcessorSpeed" type="FrequencyDimension" minOccurs="0"/>
-				<xsd:element name="FrontWebcamResolution" type="ResolutionFiveDigitDimension"/>
 				<xsd:element name="StandbyTime" type="TimeDimension" minOccurs="0"/>
-				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
-				<xsd:element name="VersionForCountry" type="CountryOfOriginType" minOccurs="0"/>
-				<xsd:element name="TargetRegion" type="StringNotNull" minOccurs="0"/>
-				<xsd:element name="SimCardSlotCount" type="SimCardSlotCountType" minOccurs="0"/>
-				<xsd:element name="MemoryStorageCapacity" type="MemorySizeDimension" minOccurs="0"/>
-				<xsd:element name="OpticalSensorInterpolatedResolution" type="PixelDimension" minOccurs="0"/>
-				<xsd:element name="ModelName" type="StringNotNull" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -3467,4 +3449,3 @@ with Amazon.com.
 		</xsd:sequence>
 	</xsd:complexType>
 </xsd:schema>
-
