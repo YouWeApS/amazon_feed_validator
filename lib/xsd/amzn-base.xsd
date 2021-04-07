@@ -6458,13 +6458,13 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 	
-	    <xsd:simpleType name="EuAcousticNoiseValue">
-        <xsd:restriction base="xsd:positiveInteger">
-            <xsd:enumeration value="1"/>
-            <xsd:enumeration value="2"/>
-            <xsd:enumeration value="3"/>
-        </xsd:restriction>
-    </xsd:simpleType>
+<!--	    <xsd:simpleType name="EuAcousticNoiseValue">-->
+<!--        <xsd:restriction base="xsd:positiveInteger">-->
+<!--            <xsd:enumeration value="1"/>-->
+<!--            <xsd:enumeration value="2"/>-->
+<!--            <xsd:enumeration value="3"/>-->
+<!--        </xsd:restriction>-->
+<!--    </xsd:simpleType>-->
 	<!--
 		
     ##################################################
