@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.4.2
+* Validate amzn-envelope.xsd after XSDs update
+
 # 0.4.1
 * Fix AutoAccessory.xsd
 
