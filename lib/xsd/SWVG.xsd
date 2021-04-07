@@ -322,16 +322,6 @@
 			<xsd:enumeration value="universal"/>
 		</xsd:restriction>
 	</xsd:simpleType>
-	<xsd:simpleType name="PEGIRatingType">
-		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="ages_3_and_over"/>
-			<xsd:enumeration value="ages_7_and_over"/>
-			<xsd:enumeration value="ages_12_and_over"/>
-			<xsd:enumeration value="ages_16_and_over"/>
-			<xsd:enumeration value="ages_18_and_over"/>
-			<xsd:enumeration value="unknown"/>
-		</xsd:restriction>
-	</xsd:simpleType>
 	<xsd:complexType name="PEGIDetailsType">
 		<xsd:sequence>
 			<xsd:element name="BadLanguage" type="xsd:boolean" minOccurs="0"/>
@@ -342,17 +332,4 @@
 			<xsd:element name="SexualContent" type="xsd:boolean" minOccurs="0"/>
 		</xsd:sequence>
 	</xsd:complexType>
-	<xsd:simpleType name="USKRatingType">
-		<xsd:restriction base="xsd:string">
-			<xsd:enumeration value="ages_6_and_over"/>
-			<xsd:enumeration value="ages_12_and_over"/>
-			<xsd:enumeration value="ages_16_and_over"/>
-			<xsd:enumeration value="ages_18_and_over"/>
-			<xsd:enumeration value="cannot_publicize"/>
-			<xsd:enumeration value="checked_by_legal_department"/>
-			<xsd:enumeration value="not_checked"/>
-			<xsd:enumeration value="without_age_limitation"/>
-			<xsd:enumeration value="unknown"/>
-		</xsd:restriction>
-	</xsd:simpleType>
 </xsd:schema>
