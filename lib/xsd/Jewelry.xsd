@@ -47,6 +47,7 @@ Please read the corresponding documentation that contains the recommended values
 				<xsd:element name="WarrantyType" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="ModelNumber" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="Codabar" type="StringNotNull" minOccurs="0"/>
+				<xsd:element name="MetalType" type="StringNotNull" minOccurs="0"/>
 
 			</xsd:sequence>
 		</xsd:complexType>
@@ -167,6 +168,7 @@ Please read the corresponding documentation that contains the recommended values
 				<xsd:element name="Codabar" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="GradeRating" type="StringNotNull" minOccurs="0"/>
 				<xsd:element name="AuthenticatedBy" type="StringNotNull" minOccurs="0"/>
+				<xsd:element name="GdprRisk" type="GdprRiskType" minOccurs="0"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -199,6 +201,23 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="DisplayLength-TotalDiamondWeight"/>
+										<xsd:enumeration value="MetalType-GemType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="MetalType-TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="DisplayLength-SizePerPearl"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="GemType"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
+										<xsd:enumeration value="MetalType-DisplayLength"/>
+										<xsd:enumeration value="SizePerPearl"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -302,6 +321,27 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
+										<xsd:enumeration value="RingSize-TotalDiamondWeight"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Length-TotalDiamondWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="Length"/>
+										<xsd:enumeration value="MetalType-TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="DisplayLength-RingSize"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="SizePerPearl"/>
+										<xsd:enumeration value="MetalType-GemType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="RingSize-GemType"/>
+										<xsd:enumeration value="Length-SizePerPearl"/>
+										<xsd:enumeration value="GemType"/>
+										<xsd:enumeration value="TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
+										<xsd:enumeration value="MetalType-DisplayLength"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -399,6 +439,23 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Length-TotalDiamondWeight"/>
+										<xsd:enumeration value="MetalType-GemType"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="Length"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="MetalType-TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="Length-SizePerPearl"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="GemType"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
+										<xsd:enumeration value="SizePerPearl"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -499,6 +556,27 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="RingSize-TotalDiamondWeight"/>
+										<xsd:enumeration value="Length-TotalDiamondWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="MetalType-TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="SizePerPearl"/>
+										<xsd:enumeration value="MetalType-RingSize"/>
+										<xsd:enumeration value="MetalType-GemType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="RingSize-GemType"/>
+										<xsd:enumeration value="Length-SizePerPearl"/>
+										<xsd:enumeration value="GemType"/>
+										<xsd:enumeration value="RingSize"/>
+										<xsd:enumeration value="TotalDiamondWeight"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
+										<xsd:enumeration value="MetalType-DisplayLength"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -612,6 +690,15 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -729,6 +816,20 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Length-TotalDiamondWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="Length"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="GemType-RingSize"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
+										<xsd:enumeration value="Length-SizePerPearl"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -836,6 +937,18 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Length-TotalDiamondWeight"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="Length"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="Length-SizePerPearl"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
@@ -942,6 +1055,22 @@ Please read the corresponding documentation that contains the recommended values
 										<xsd:enumeration value="StyleName"/>
 										<xsd:enumeration value="Diameter"/>
 										<xsd:enumeration value="DisplayWeight"/>
+										<xsd:enumeration value="RingSize-TotalDiamondWeight"/>
+										<xsd:enumeration value="Length-MetalType"/>
+										<xsd:enumeration value="Color-DisplayLength"/>
+										<xsd:enumeration value="DisplayLength-StyleName"/>
+										<xsd:enumeration value="DisplayLength-Material"/>
+										<xsd:enumeration value="Color-MetalType"/>
+										<xsd:enumeration value="MetalType-RingSize"/>
+										<xsd:enumeration value="MetalType-GemType"/>
+										<xsd:enumeration value="TotalGemWeight"/>
+										<xsd:enumeration value="Color-RingSize"/>
+										<xsd:enumeration value="ItemPackageQuantity"/>
+										<xsd:enumeration value="Material"/>
+										<xsd:enumeration value="RingSize-GemType"/>
+										<xsd:enumeration value="GemType"/>
+										<xsd:enumeration value="RingSize"/>
+										<xsd:enumeration value="DisplayLength-GemType"/>
 									</xsd:restriction>
 								</xsd:simpleType>
 							</xsd:element>
