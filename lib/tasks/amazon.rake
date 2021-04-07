@@ -11,10 +11,12 @@ require 'open-uri'
 namespace :amazon do
   desc 'Download XSD files recursively'
   task xsd: :environment do
-    download_xsd_file(
+    dest = download_xsd_file(
       'amzn-envelope.xsd',
       'https://images-na.ssl-images-amazon.com/images/G/01/rainier/help/xsd/release_1_9/'
     )
+    # Validate schema
+    Nokogiri::XML::Schema(File.open(dest))
     puts 'Done!'
   end
 
