@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.4.3
+* remove Home conflicting field
+
 # 0.4.2
 * Validate amzn-envelope.xsd after XSDs update
 
