@@ -596,13 +596,6 @@
 			<xsd:enumeration value="btus"/>
 		</xsd:restriction>
 	</xsd:simpleType>
-	<xsd:complexType name="IceCapacityDimension">
-		<xsd:simpleContent>
-			<xsd:extension base="Dimension">
-				<xsd:attribute name="unitOfMeasure" type="IceCapacityUnitOfMeasure" use="required"/>
-			</xsd:extension>
-		</xsd:simpleContent>
-	</xsd:complexType>
 	<xsd:complexType name="FilterPoreSizeDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">
