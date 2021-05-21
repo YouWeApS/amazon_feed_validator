@@ -1475,19 +1475,6 @@
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
-    <xsd:complexType name="OptionalMotorSizeDimension">
-        <xsd:simpleContent>
-            <xsd:extension base="Dimension">
-                <xsd:attribute name="unitOfMeasure" type="MotorSizeUnitOfMeasure" use="optional"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-    <xsd:simpleType name="MotorSizeUnitOfMeasure">
-        <xsd:restriction base="xsd:string">
-            <xsd:enumeration value="horsepower"/>
-            <xsd:enumeration value="kilowatts"/>
-        </xsd:restriction>
-    </xsd:simpleType>
     <xsd:complexType name="OptionalResistanceDimension">
         <xsd:simpleContent>
             <xsd:extension base="Dimension">
@@ -1498,18 +1485,6 @@
     <xsd:simpleType name="ResistanceTypeUnitOfMeasure">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="pounds"/>
-        </xsd:restriction>
-    </xsd:simpleType>
-    <xsd:complexType name="OptionalRValueDimension">
-        <xsd:simpleContent>
-            <xsd:extension base="PositiveDimension">
-                <xsd:attribute name="unitOfMeasure" type="RValueUnitOfMeasure" use="optional"/>
-            </xsd:extension>
-        </xsd:simpleContent>
-    </xsd:complexType>
-    <xsd:simpleType name="RValueUnitOfMeasure">
-        <xsd:restriction base="xsd:string">
-            <xsd:enumeration value="r_value"/>
         </xsd:restriction>
     </xsd:simpleType>
     <xsd:complexType name="OutputPowerDimension">

@@ -603,11 +603,6 @@
 			</xsd:extension>
 		</xsd:simpleContent>
 	</xsd:complexType>
-	<xsd:simpleType name="IceCapacityUnitOfMeasure">
-		<xsd:restriction base="String">
-			<xsd:enumeration value="pounds"/>
-		</xsd:restriction>
-	</xsd:simpleType>
 	<xsd:complexType name="FilterPoreSizeDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">
