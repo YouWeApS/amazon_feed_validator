@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    amazon_feed_validator (0.4.3)
+    amazon_feed_validator (0.4.4)
       activesupport (~> 5.2)
       hashie (~> 3.6)
       nokogiri (~> 1.8)

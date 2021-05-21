@@ -408,11 +408,4 @@
          <xsd:element name="MinimumWidthSize" type="LengthDimension" minOccurs="0"/>
       </xsd:sequence>
    </xsd:complexType>
-   <xsd:complexType name="PetPowerDimension">
-      <xsd:simpleContent>
-         <xsd:extension base="Dimension">
-            <xsd:attribute name="unitOfMeasure" type="PowerUnitOfMeasure" use="required"/>
-         </xsd:extension>
-      </xsd:simpleContent>
-   </xsd:complexType>
 </xsd:schema>

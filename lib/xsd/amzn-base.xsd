@@ -4115,6 +4115,19 @@
                         </xsd:extension>
                 </xsd:simpleContent>
         </xsd:complexType>
+	<xsd:simpleType name="MotorSizeUnitOfMeasure">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="horsepower"/>
+			<xsd:enumeration value="kilowatts"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="OptionalMotorSizeDimension">
+		<xsd:simpleContent>
+			<xsd:extension base="Dimension">
+				<xsd:attribute name="unitOfMeasure" type="MotorSizeUnitOfMeasure" use="optional"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="LuminancePositiveIntegerDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="xsd:positiveInteger">
@@ -4182,6 +4195,25 @@
 		<xsd:simpleContent>
 			<xsd:extension base="FourDecimal">
 				<xsd:attribute name="unitOfMeasure" type="JewelryWeightUnitOfMeasure" use="required"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:simpleType name="IceCapacityUnitOfMeasure">
+		<xsd:restriction base="String">
+			<xsd:enumeration value="pounds"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="IceCapacityDimension">
+		<xsd:simpleContent>
+			<xsd:extension base="Dimension">
+				<xsd:attribute name="unitOfMeasure" type="IceCapacityUnitOfMeasure" use="required"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="PetPowerDimension">
+		<xsd:simpleContent>
+			<xsd:extension base="Dimension">
+				<xsd:attribute name="unitOfMeasure" type="PowerUnitOfMeasure" use="required"/>
 			</xsd:extension>
 		</xsd:simpleContent>
 	</xsd:complexType>
@@ -4261,7 +4293,7 @@
 				<xsd:attribute name="unitOfMeasure" type="TimeUnitOfMeasure" use="required"/>
 			</xsd:extension>
 		</xsd:simpleContent>
-	</xsd:complexType>	
+	</xsd:complexType>
 	<xsd:complexType name="BatteryLifeDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">
@@ -4296,7 +4328,7 @@
 				<xsd:attribute name="unitOfMeasure" type="SunProtectionUnitOfMeasure" use="required"/>
 			</xsd:extension>
 		</xsd:simpleContent>
-	</xsd:complexType>	
+	</xsd:complexType>
 	<xsd:complexType name="AssemblyTimeDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="xsd:positiveInteger">
@@ -4408,7 +4440,7 @@
 				<xsd:attribute name="unitOfMeasure" type="TemperatureUnitOfMeasure" use="required"/>
 			</xsd:extension>
 		</xsd:simpleContent>
-	</xsd:complexType>	
+	</xsd:complexType>
 	<xsd:complexType name="TemperatureRatingDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">
@@ -4435,9 +4467,9 @@
 		<xsd:simpleContent>
 			<xsd:extension base="StringNotNull">
 				<xsd:attribute name="unitOfMeasure" type="LengthUnitOfMeasure" use="required"/>
-			</xsd:extension>	
+			</xsd:extension>
 		</xsd:simpleContent>
-	</xsd:complexType>	
+	</xsd:complexType>
 	<xsd:complexType name="CurrentDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">
@@ -4502,11 +4534,11 @@
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<!--
-		
+
     ##################################################
     # Unit of Measure Types
     ##################################################
-    
+
 	-->
 	<xsd:simpleType name="AreaUnitOfMeasure">
 		<xsd:restriction base="xsd:string">
@@ -4526,7 +4558,7 @@
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="minutes"/>
 			<xsd:enumeration value="hours"/>
-			<xsd:enumeration value="cycles"/>			
+			<xsd:enumeration value="cycles"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="LengthUnitOfMeasure">
@@ -4603,13 +4635,13 @@
 			<xsd:enumeration value="KG"/>
 			<xsd:enumeration value="OZ"/>
 			<xsd:enumeration value="LB"/>
-			<xsd:enumeration value="MG"/>			
+			<xsd:enumeration value="MG"/>
 			<xsd:enumeration value="hundredths_pounds"/>
 			<xsd:enumeration value="kilograms"/>
 			<xsd:enumeration value="pounds"/>
 			<xsd:enumeration value="pounds_per_square_inch"/>
 			<xsd:enumeration value="newtons"/>
-			<xsd:enumeration value="pascal"/>			
+			<xsd:enumeration value="pascal"/>
 			<xsd:enumeration value="ounces"/>
 		</xsd:restriction>
 	</xsd:simpleType>
@@ -4634,12 +4666,12 @@
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="degrees"/>
 			<xsd:enumeration value="microradian"/>
-			<xsd:enumeration value="arc_minute"/>			
+			<xsd:enumeration value="arc_minute"/>
 			<xsd:enumeration value="arc_sec"/>
 			<xsd:enumeration value="milliradian"/>
-			<xsd:enumeration value="radians"/>			
-			<xsd:enumeration value="turns"/>				
-			<xsd:enumeration value="revolutions"/>				
+			<xsd:enumeration value="radians"/>
+			<xsd:enumeration value="turns"/>
+			<xsd:enumeration value="revolutions"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="MemorySizeUnitOfMeasure">
@@ -4756,13 +4788,13 @@
 			<xsd:enumeration value="millivolts"/>
 			<xsd:enumeration value="microvolts"/>
 			<xsd:enumeration value="nanovolts"/>
-			<xsd:enumeration value="kilovolts"/>			
+			<xsd:enumeration value="kilovolts"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="WattageUnitOfMeasure">
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="watts"/>
-			<xsd:enumeration value="kilowatts"/>			
+			<xsd:enumeration value="kilowatts"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="MillimeterUnitOfMeasure">
@@ -4875,7 +4907,7 @@
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="sun_protection_factor"/>
 		</xsd:restriction>
-	</xsd:simpleType>	
+	</xsd:simpleType>
 	<xsd:simpleType name="TemperatureUnitOfMeasure">
 		<xsd:restriction base="xsd:string">
 			<xsd:enumeration value="C"/>
@@ -4919,7 +4951,7 @@
 			<xsd:enumeration value="picoliters per minute"/>
 			<xsd:enumeration value="gallons_per_day"/>
 			<xsd:enumeration value="liters_per_day"/>
-			<xsd:enumeration value="liters"/>			
+			<xsd:enumeration value="liters"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<!--
@@ -5516,6 +5548,18 @@
                         </xsd:extension>
                 </xsd:simpleContent>
         </xsd:complexType>
+	<xsd:simpleType name="RValueUnitOfMeasure">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="r_value"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="OptionalRValueDimension">
+		<xsd:simpleContent>
+			<xsd:extension base="PositiveDimension">
+				<xsd:attribute name="unitOfMeasure" type="RValueUnitOfMeasure" use="optional"/>
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="ApertureDimension">
 		<xsd:simpleContent>
 			<xsd:extension base="Dimension">

@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.4.4
+* Fix HomeImprovement.xsd
+
 # 0.4.3
 * remove Home conflicting field
 
