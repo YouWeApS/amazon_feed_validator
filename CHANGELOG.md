@@ -1,7 +1,13 @@
 # Changelog
 
-# 0.4.4
+# 0.4.5
 * update Product.xsd
+
+# 0.4.4.1
+* Fix amzn-base.xsd
+
+# 0.4.4
+* Fix HomeImprovement.xsd
 
 # 0.4.3
 * remove Home conflicting field
